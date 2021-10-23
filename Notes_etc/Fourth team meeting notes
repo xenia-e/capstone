@@ -1,0 +1,39 @@
+Fourth team meeting 10.23.21:
+
+
+Datasets 
+https://www.kaggle.com/piterfm/olympic-games-medals-19862018
+https://www.kaggle.com/gregorut/videogamesales?select=vgsales.csv
+https://www.kaggle.com/harti28/independence-and-interdependence-in-sports
+
+
+Data points
+- Physical measurements
+- Results (medals)
+- Performance 
+- Hosts
+- Qualifying events
+- Season (Summer/Winter)
+- Age 
+- Hight
+- Weight
+- Name 
+- Country Of Origin
+- Game 
+- Season 
+- Sport
+- Medal  
+
+Type of analysis 
+- Linear regression (maybe)
+
+Rubric for Segment 1 | Sunday, October 24th 
+Presentation - Draft the project 
+- Selected topic: Olympic Athletes 
+- Provided the reason why the topic was selected: Through this analysis the team seeks to determine if it is possible to predict an athlete performance based on data 
+- Questions hope to answer with the data: What goes into making the best olympic athlete
+ 
+ 
+ 
+---
+End
