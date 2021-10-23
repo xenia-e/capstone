@@ -1,0 +1,3 @@
+what if we did something similar to this kaggle (maybe kind of an updated version since its like 5 years old). They scrapped data from a website. Does one gaming company do better market in different country? or Top sales..
+
+https://www.kaggle.com/gregorut/videogamesales?select=vgsales.csv
