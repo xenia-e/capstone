@@ -12,6 +12,7 @@ Soco Hernandez-Serrano
  - **Description of the source of data**: The data was source from Kaggle from an articule of Olympic Games that duelves on data from 1986 - 2021. The selected tables have data with more than 1,000 data points. 
 
  We are starting the project with four tables: 
+ 
  [Athletes](https://github.com/xenia-e/capstone/blob/SocoH/olympic_athletes.csv)
 
  ![Athletes](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/athletes_data.png)
