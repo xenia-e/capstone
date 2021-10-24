@@ -1,6 +1,10 @@
-# Machine Learning Notes
+Machine Learning Notes
 
-## Step 1 - Creating a Simple Machine Learning Model
+----------------------------------------------------------------
+
+Step 1 - Creating a Simple Machine Learning Model
+
+DUE 10/24/21
 
 We are creating a very simple machine learning model that will fit our data and return a label. At this stage, we are not concerned with the accuracy of our model. We will improve our model accuracy as we continue to explore the data and structure our model. 
 
@@ -49,7 +53,8 @@ What does the machine learning model look like? Supervised? Unsupervised? Is the
 
 10/24/21
 * We have added the Random Forest Classifier and Neural Network code as potential models
-* Still awaiting database information and code
+* Awaiting database information and code
 
+----------------------------------------------------------------
 
 ## Step 2: 
