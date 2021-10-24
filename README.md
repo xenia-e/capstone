@@ -1,7 +1,7 @@
 CoriS
 # Machine Learning Model Outline
 
-We have built a basic machine learning model to take in sample data and test accuracy. Please find the code [here]().
+We have built a basic machine learning model to take in sample data and test accuracy. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/Olympics_Machine_Learning_Model.ipynb).
 
 ## Process:
 1. Ask the question 
