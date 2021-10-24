@@ -1,6 +1,8 @@
 Soco Hernandez-Serrano 
 # **Team NaN: Olympic Athletes**
 
+# **Presentation**
+
 ## Overview of the analysis:
 
  - **Selected topic**: Olympic Athletes
@@ -18,13 +20,13 @@ Soco Hernandez-Serrano
 
  ![Hosts](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/host_data.png)
 
- [Medals] (https://github.com/xenia-e/capstone/blob/SocoH/olympic_medals.csv)
-
- ![Medals] (https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/medals_data.png)
-
- [Results] (https://github.com/xenia-e/capstone/blob/SocoH/olympic_results.csv)
+ [Medals](https://github.com/xenia-e/capstone/blob/SocoH/olympic_medals.csv)
  
- ! [Results] (https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/results_data.png)
+ ![Medals](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/medals_data.png)
+
+ [Results](https://github.com/xenia-e/capstone/blob/SocoH/olympic_results.csv)
+ 
+ ![Results](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/results_data.png)
  
  
  To find our datasets the team checked different sources related to the Olympic Athletes Analysis, fo example:
@@ -60,7 +62,7 @@ Soco Hernandez-Serrano
 
  4. X: The team member in the X role will focus on the technology side of the project. 
 
-![https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/Team_roles.png]
+![Team roles](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/Team_roles.png)
 
 ### Communication protocol
 
@@ -73,9 +75,10 @@ To accomplish the goals of this project, the Nan team has placed a communication
 
 - **Github**: The team has agreed to use Git as the platform to record the individual and team progress on the project. 
 
-### Database provisional outline 
+# Database provisional outline 
 
-![Insert provisional schema here]
+
+![Insert provisional schema here]()
 
 
 
