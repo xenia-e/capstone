@@ -22,7 +22,9 @@ We have built a basic machine learning model to take in sample data and test acc
 What does the machine learning model look like? Supervised? Unsupervised? Is the data structred? How will you process the data for the machine learning model? What statistical test will you do? Roadmap for intentions. 
 
 #### Which model did you choose and why? 
-We need to visualize our data to explore it and determine the best statistcal test and training model to use. 
+We need to visualize our data to explore it and determine the best statistical test and training model to use. 
+
+We will be using a supervised machine learning model because we already know what data we are trying to predict.
 
 If the data is structured tabular data, we would like to use a Random Forest Classifier. This is an ensemble learning method for classification and regression that take in many small decision trees for training for a more accurate output.
 
@@ -30,8 +32,8 @@ We would also like to use a neural network and compare the accuracy and results.
 
 #### How are you training your model? 
 Statistical Test: TBD
-X: Input Data
-Y: Output Data
+X: Input Data from our DataFrame
+Y: Medals
 
 #### What is the model's accuracy? 
 TBD
