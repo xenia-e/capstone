@@ -32,11 +32,11 @@ We would also like to use a neural network and compare the accuracy and results.
 
 #### How are you training your model? 
 Statistical Test: TBD
-X: Input Data from our DataFrame
-Y: Medals
+X: rank, time, reaction, dry, wet
+y: rank
 
 #### What is the model's accuracy? 
-TBD
+0.125
 
 #### How does this model work? 
 TBD
