@@ -3,7 +3,7 @@
 
 CREATE TABLE olympic_athletes (
 	athlete_url TEXT,
-    athlete_full_name TEXT NOT NULL PRIMARY KEY,
+    athlete_full_name TEXT NOT NULL,
 	first_game TEXT,
 	athlete_year_birth DECIMAL,
 	athlete_medals TEXT, 
