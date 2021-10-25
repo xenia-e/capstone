@@ -75,12 +75,12 @@ We have built a basic machine learning model to take in sample data and test acc
 * We are also working on testing and training a neural network model. We are still in the process of execution here.
 
 **How are you training your model?**
-* X: Year, Reaction Time, Conditions, Country, Rank
-* y: World Record Acheived
+* X: Rank, Time, Reaction, Dry, Wet
+* y: Rank
 
 * After choosing our features, we have split to training and testing sets, then scaled the data for the model
 
 #### What is the model's accuracy? 
-* Using the Balanced Random Forest Classifier, we received a balanced accuracy score of 1.0
+* Using the Balanced Random Forest Classifier, we received a balanced accuracy score of 0.125
 
 
