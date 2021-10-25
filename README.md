@@ -79,7 +79,7 @@ To accomplish the goals of this project, the Nan team has placed a communication
 # Database provisional outline 
 
 
-![Insert provisional schema here]()
+![Insert provisional schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/Provisional_ERD.png)
 
 
 
