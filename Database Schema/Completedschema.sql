@@ -25,4 +25,7 @@ CREATE TABLE Games(
 	Year INT,
 	Season VARCHAR, 
 	City VARCHAR
-)
+);
+
+-- you can use this query to import the csv file to your DB. it wont be affected by quatations and commas
+COPY athletes FROM '/Users/xenia/Data Bootcamp/Analysis_Projects/capstone/Resources/athletes_data_clean.csv' WITH DELIMITER ',' CSV HEADER;
