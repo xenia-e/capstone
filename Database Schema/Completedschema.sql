@@ -1,6 +1,6 @@
 --Schema for the Athletes table (final_athlete_clean_data)
 
-CREATE TABLE athletes(
+CREATE TABLE athletes_medals(
  	ID INT,
 	Name VARCHAR,
 	Sex VARCHAR,
@@ -12,9 +12,12 @@ CREATE TABLE athletes(
 	Games VARCHAR,
 	Sport VARCHAR,
 	Event VARCHAR,
-	Medal VARCHAR
+	Medal VARCHAR,
+	Win INT,
+	BMI FLOAT,
+	Team_wins INT,
+	Win_per_member FLOAT
 );
-
 
 
 --schema for games table (Olypic_games_clean)
@@ -23,9 +26,11 @@ CREATE TABLE Games(
 	ID INT,
 	Games VARCHAR,
 	Year INT,
-	Season VARCHAR, 
+	Season VARCHAR,
 	City VARCHAR
 );
 
--- you can use this query to import the csv file to your DB. it wont be affected by quatations and commas
-COPY athletes FROM '/Users/xenia/Data Bootcamp/Analysis_Projects/capstone/Resources/athletes_data_clean.csv' WITH DELIMITER ',' CSV HEADER;
+-- join the tables using PgAdmin 
+SELECT * from athletes as a
+INNER JOIN games as g on g.games = a.games;
+
