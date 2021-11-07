@@ -84,3 +84,27 @@ We have built a basic machine learning model to take in sample data and test acc
 * Using the Balanced Random Forest Classifier, we received a balanced accuracy score of 0.125
 
 
+# Dashboard
+* In our dashboard we feature a detailed analysis of gold medal winning teams and the association to the team’s average BMI. 
+
+* From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare. 
+
+The graphs and dashboard were created in Tableau Public.
+https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes
+
+## Interactive element outline
+In the next draft of our dashboard we aim to include the following interactive element: 
+
+On the logo of the Olympic Games we will place an input field on each Olympic circle. 
+
+One input field that asks for country of birth
+One input field that asks for your gender
+One input field that asks for your age
+One input field that ask for your weight
+One input field that asks for your height
+
+After entering the last input field the page automatically refreshes and produces a prediction on 
+which sport you must practice should you choose to win a gold medal in the next Olympic Games. 
+
+## Tools
+To create the final dashboard we will work with JavaScript, CSS and bootstrap. 
