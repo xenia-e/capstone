@@ -1,5 +1,7 @@
 // Add console.log to check to see if our code is working.
 console.log("working----");
+
+
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -162,6 +164,12 @@ d3.json("./static/js/mapData.geojson").then(function(data) {
     if (totalWins === 0) {
       return 4;
     }
+    if (totalWins <= 100) {
+      return totalWins*0.08;
+    }
+    if (totalWins <= 3000) {
+      return totalWins*0.03;
+    }
     return totalWins*0.01;
   }
   function getColor2(totalWins){
@@ -186,8 +194,44 @@ d3.json("./static/js/mapData.geojson").then(function(data) {
     }
   }).addTo(olympicMedals);
 
-  // Then we add the earthquake layer to our map.
-  //olympicMedals.addTo(map);
+});
+
+// ADDING ATHLETES LAYER
+
+d3.json("./static/js/athletes.geojson").then(function(data) {
+  function styleInfo(feature) {
+    return {
+      opacity: 1,
+      fillOpacity: 0.75,
+      fillColor: 'blue',
+      color: "#000000",
+      radius: 10,
+      stroke: true,
+      weight: 0.5
+    };
+  }
+  // Creating a GeoJSON layer with the retrieved data.
+  L.geoJson(data, {
+    	// We turn each feature into a circleMarker on the map.
+    	pointToLayer: function(feature, latlng) {
+        var trophyIcon = L.icon({
+          iconUrl: './static/images/trophy.png',
+        
+          iconSize:     [38, 38], // size of the icon
+          iconAnchor:   [17, 38], // point of the icon which will correspond to marker's location
+          popupAnchor:  [-3, -3] // point from which the popup should open relative to the iconAnchor
+        });
+        return L.marker(latlng, {icon: trophyIcon})
+        },
+    style: styleInfo,
+     onEachFeature: function(feature, layer) {
+      layer.bindPopup('<h4>' + feature.properties.CountryName + 
+      '</h4><hr><h4> Average winner </h4><hr> Age: ' + feature.properties.Age +
+       ' </br> Height: ' + feature.properties.Height +
+       ' cm</br> Weight: ' + feature.properties.Weight + ' kg'
+       );
+    }
+  }).addTo(averageWinner);
 
 });
 
