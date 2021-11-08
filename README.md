@@ -2,9 +2,7 @@ LC
 # **Team NaN: Olympic Athletes**
 
 
-### Team roles Week 2:
-On week 2 we added the dashboard task to the X role. 
-
+### Team roles:
 ![Team roles](https://github.com/xenia-e/capstone/blob/main/Report_images/Team_roles_w2.png)
 
 ### Communication protocol:
