@@ -61,27 +61,26 @@ To accomplish the goals of this project, the Nan team has placed a communication
 
 
 
-# Machine Learning Model Outline
+# Machine Learning Model:
 
-We have built a basic machine learning model to take in sample data and test accuracy using a Random Forest Classifier. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
+Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
 
-### Questions about the model:
+#### Pre-Processing: 
+* Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics. 
+* Binned countries with less than 100 entries to "Other" category
+* Dropped Name, Team, Sport, Event and Medal columns as these are not needed for our model 
+* Encoded Sex, NOC and Games as these are object data 
 
-**Which model did you choose and why?** 
-* We chose the Random Forest Classifier, a supervised ensemble learning method for classification and regression that takes in many small decision trees for training for more accurate input. 
+#### Feature Selection:
+* X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member
+* y: Win (yes or no) 
+* We chose these because we are looking at physical features. We kept NOC (team) and games (year) because these also determine physical attributes. 
 
-* We chose this model because we have structured tabular data and because we know what we are predicting, we can use a supervised learning model.
+#### Model Choice - Balanced Random Forest Classifier:
+* We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.  
+* Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively. 
+* Balanced Accuracy Score: 85%
 
-* We are also working on testing and training a neural network model. We are still in the process of execution here.
-
-**How are you training your model?**
-* X: Rank, Time, Reaction, Dry, Wet
-* y: Rank
-
-* After choosing our features, we have split to training and testing sets, then scaled the data for the model
-
-#### What is the model's accuracy? 
-* Using the Balanced Random Forest Classifier, we received a balanced accuracy score of 0.125
 
 # Dashboard
 * In our dashboard we feature a detailed analysis of gold medal winning teams and the association to the team’s average BMI. 
