@@ -1,7 +1,0 @@
-A few notes on playing with Sample Data
-
-This data includes the results of the finalists for each Olympic Games. This gives us 64 rows. The dataset is too small to be really useful but it could be more than enough if we include all athletes from first round, preliminary races and semi-finals. 
-
-By examining the relationship between reaction time, time, country, age (age is not included in current data but can be easily added) we can draw hybrid conclusions like their mental state on the day of the race eg if someone has a slow reaction time and finishes first it may indicate that this athlete had a positive mental state. 
-
-We should stay open minded in determining our target (y) .  If we cannot find it in an existing database we can create it. 
