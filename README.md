@@ -1,64 +1,49 @@
-Soco Hernandez-Serrano 
+LC 
 # **Team NaN: Olympic Athletes**
 
-# **Presentation**
 
-## Overview of the analysis:
+### Team roles:
+![Team roles](https://github.com/xenia-e/capstone/blob/main/Report_images/Team_roles_w2.png)
 
-### **Selected topic**
-
-Olympic Athletes
- 
-### **Reason they selected the topic**: 
-
-Data is an important part of the sports industry. Not only can data analytics help teams win games, but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. Through this analysis, the team seeks to determine if it is possible to predict an athlete's performance based on personal features.
- 
-### **Description of the source of data**: 
-
-The data was sourced from Kaggle from an article on Olympic Games that delves on data from 1986 - 2021. The selected tables have data with more than 1,000 data points. 
-
-We are starting the project with four data sets: 
- 
-[Athletes](https://github.com/xenia-e/capstone/blob/SocoH/olympic_athletes.csv)
-
- ![Athletes](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/athletes_data.png)
-
- [Hosts](https://github.com/xenia-e/capstone/blob/SocoH/olympic_hosts.csv) 
-
- ![Hosts](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/host_data.png)
-
- [Medals](https://github.com/xenia-e/capstone/blob/SocoH/olympic_medals.csv)
- 
- ![Medals](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/medals_data.png)
-
- [Results](https://github.com/xenia-e/capstone/blob/SocoH/olympic_results.csv)
- 
- ![Results](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/results_data.png)
- 
- 
-## **Questions the team hopes to answer with the data**: 
-
-The initial question the team has is "Can we use machine leaning or model neuro net oto predict athlete’s chances of winning a medal?" We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history. 
-
-# **Team roles for First Segment**:
-
-![Team roles](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/Team_roles.png)
-
-### Communication protocol
+### Communication protocol:
 
 To accomplish the goals of this project, the Nan team has placed a communication protocol to promote effective communication within the team as follows:
-- **Rapid communication channel**: The first step was to create a Slack group for the team members. Through this group, we have daily check-ins and we follow up questions or emergency comments regarding the progress of the project. 
+- **Rapid communication channel**: The first step of communication is to a Slack a message for the team members. Through this group, we have daily check-ins and we follow up questions or emergency comments regarding the progress of the project. 
 
-- **Zoom meetings**: The team has agreed to meet based on the availability and the required tasks for each role. Currently, we have met five times to discuss the requirements of Segment #1. 
+- **Zoom meetings**: We host multiple team meetings each week and discuss progress and the requirements for each role. 
 
 - **Team meeting notes**: We decided to record the team meeting highlights and next steps to stay on the same understanding of the project’s progress. 
 
-- **Github**: The team has agreed to use Git as the platform to record the individual and team progress on the project. 
+- **Github**: Our team uses Git as the platform to record the individual and team progress on the project. 
 
-# Database provisional outline 
 
-![Insert provisional schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/Provisional_ERD.png)
+### Presentation: [Google Slides](https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325)
 
+# **Overview of the analysis**
+
+### **Selected topic**:
+
+Olympic Athletes
+
+## **Questions the team hopes to answer with the data**: 
+
+"Can we use predict an athlete’s chances of winning a medal based on their physical features?" We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history. 
+ 
+
+### **Reason we selected the topic**: 
+
+Data is an important part of the sports industry. Not only can data analytics help teams win games, but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on personal features.
+ 
+
+### **Description of the source of data**: 
+
+The data was sourced from Kaggle from an article on Olympic Games that delves on data from 120 years of olympic history. The selected tables have data with more than 1,000 data points. The selected two tables were cleaned up using Pandas (Jupyter Notebook) and were explored using PostgreSQL (PgAdmin). 
+
+Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resources/Final_athlete_clean_data.csv) and [Games](https://github.com/xenia-e/capstone/blob/main/Resources/olypic_games_clean.csv)
+
+# Database outline 
+
+![Insert schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/ERD.png)
 
 
 # Machine Learning Model:
@@ -89,6 +74,23 @@ Using data from the Olympic games from 1900 to 2016, we are using a Random Fores
 
 The graphs and dashboard were created in Tableau Public.
 https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes
+
+## Interactive element outline
+In the next draft of our dashboard we aim to include the following **interactive element**: 
+
+On the logo of the Olympic Games we will place an *input field* on each Olympic circle. 
+
+One *input field* that asks for **country of birth** <br>
+One *input field* that asks for your **gender**<br>
+One *input field* that asks for your **age**<br>
+One *input field* that ask for your **weight**<br>
+One *input field* that asks for your **height**<br>
+
+After entering the last input field the page automatically refreshes and produces a prediction on 
+which sport you must practice should you choose to win a gold medal in the next Olympic Games. 
+
+## Tools
+To create the final dashboard we will work with JavaScript, CSS and Bootstrap. 
 
 ## Interactive element outline
 In the next draft of our dashboard we aim to include the following **interactive element**: 
