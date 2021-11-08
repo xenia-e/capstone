@@ -3,7 +3,7 @@ console.log("working----");
 
 
 // We create the tile layer that will be the background of our map.
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let streets = L.tileLayer('https://api.mapbox.com/styles/v1../mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
 	accessToken: API_KEY
@@ -11,7 +11,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/til
 
 
 // We create the third tile layer that will be the background of our map.
-let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let dark = L.tileLayer('https://api.mapbox.com/styles/v1../mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
 	accessToken: API_KEY
@@ -47,7 +47,7 @@ let overlays = {
 L.control.layers(baseMaps, overlays).addTo(map);
 
 // Retrieve the GeoJSON data.
-d3.json("/map/static/js/mapData.geojson").then(function(data) {
+d3.json("../map/static/js../mapData.geojson").then(function(data) {
 
   // This function returns the style data for each of the country we plot on
   // the map. We pass the to games participated into two separate functions
@@ -143,7 +143,7 @@ d3.json("/map/static/js/mapData.geojson").then(function(data) {
 
 // ADDING MEDALS LAYER
 
-d3.json("/map/static/js/mapData.geojson").then(function(data) {
+d3.json("../map/static/js../mapData.geojson").then(function(data) {
 
   // This function returns the style data for each of the country we plot on
   // the map. We pass the to games participated into two separate functions
@@ -198,7 +198,7 @@ d3.json("/map/static/js/mapData.geojson").then(function(data) {
 
 // ADDING ATHLETES LAYER
 
-d3.json("/map/static/js/athletes.geojson").then(function(data) {
+d3.json("../map/static/js/athletes.geojson").then(function(data) {
   function styleInfo(feature) {
     return {
       opacity: 1,
@@ -215,7 +215,7 @@ d3.json("/map/static/js/athletes.geojson").then(function(data) {
     	// We turn each feature into a circleMarker on the map.
     	pointToLayer: function(feature, latlng) {
         var trophyIcon = L.icon({
-          iconUrl: '/map/static/images/trophy.png',
+          iconUrl: '../map/static/images/trophy.png',
         
           iconSize:     [38, 38], // size of the icon
           iconAnchor:   [17, 38], // point of the icon which will correspond to marker's location
