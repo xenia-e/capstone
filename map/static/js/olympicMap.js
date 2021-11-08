@@ -227,8 +227,8 @@ d3.json("./map/static/js/athletes.geojson").then(function(data) {
      onEachFeature: function(feature, layer) {
       layer.bindPopup('<h4>' + feature.properties.CountryName + 
       '</h4><hr><h4> Average winner </h4><hr> Age: ' + feature.properties.Age +
-       ' </br> Height: ' + feature.properties.Height +
-       ' cm</br> Weight: ' + feature.properties.Weight + ' kg'
+       ' </br> Height: ' + Math.round(feature.properties.Height, 2) +
+       ' cm</br> Weight: ' + Math.round(feature.properties.Weight*100, 2)/100 + ' kg'
        );
     }
   }).addTo(averageWinner);
