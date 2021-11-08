@@ -1,0 +1,2261 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Afghanistan",
+        "Age": 23,
+        "Height": 183.0,
+        "Weight": 63.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.183333,
+          34.516666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Algeria",
+        "Age": 24,
+        "Height": 172.73333333333332,
+        "Weight": 64.93333333333334
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.05,
+          36.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Argentina",
+        "Age": 22,
+        "Height": 176.4227272727273,
+        "Weight": 73.51363636363637
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.666667,
+          -34.583333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Armenia",
+        "Age": 26,
+        "Height": 173.26666666666668,
+        "Weight": 83.26666666666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          40.16666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Australia",
+        "Age": 23,
+        "Height": 178.0,
+        "Weight": 72.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.133333,
+          -35.266666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Australia",
+        "Age": 25,
+        "Height": 178.90547263681592,
+        "Weight": 74.10862354892205
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.133333,
+          -35.266666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Austria",
+        "Age": 26,
+        "Height": 178.0110294117647,
+        "Weight": 73.46323529411765
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.366667,
+          48.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Azerbaijan",
+        "Age": 26,
+        "Height": 173.47727272727272,
+        "Weight": 72.88636363636364
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.866667,
+          40.38333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bahamas",
+        "Age": 28,
+        "Height": 176.975,
+        "Weight": 72.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.35,
+          25.08333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bahrain",
+        "Age": 24,
+        "Height": 162.33333333333334,
+        "Weight": 53.666666666666664
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.566667,
+          26.23333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Barbados",
+        "Age": 22,
+        "Height": 182.0,
+        "Weight": 78.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.616667,
+          13.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Belarus",
+        "Age": 25,
+        "Height": 177.18320610687022,
+        "Weight": 76.3854961832061
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.566667,
+          53.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Belgium",
+        "Age": 25,
+        "Height": 177.86516853932585,
+        "Weight": 74.03370786516854
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.333333,
+          50.833333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bermuda",
+        "Age": 25,
+        "Height": 187.0,
+        "Weight": 90.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.783333,
+          32.28333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Botswana",
+        "Age": 18,
+        "Height": 179.0,
+        "Weight": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9,
+          -24.633333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Brazil",
+        "Age": 25,
+        "Height": 182.49440715883668,
+        "Weight": 76.7069351230425
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.916667,
+          -15.783333333333331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bulgaria",
+        "Age": 26,
+        "Height": 174.0091463414634,
+        "Weight": 72.17682926829268
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.316667,
+          42.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Burundi",
+        "Age": 24,
+        "Height": 171.0,
+        "Weight": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.35,
+          -3.3666666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cameroon",
+        "Age": 25,
+        "Height": 176.66666666666666,
+        "Weight": 74.16666666666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.516667,
+          3.8666666666666663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Canada",
+        "Age": 24,
+        "Height": 176.13849092645654,
+        "Weight": 73.4570200573066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7,
+          45.41666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Chile",
+        "Age": 23,
+        "Height": 175.8,
+        "Weight": 72.48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.666667,
+          -33.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "China",
+        "Age": 21,
+        "Height": 170.3005076142132,
+        "Weight": 63.923857868020306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.383333,
+          39.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "China",
+        "Age": 21,
+        "Height": 166.5,
+        "Weight": 59.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.383333,
+          39.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Colombia",
+        "Age": 26,
+        "Height": 169.96296296296296,
+        "Weight": 61.888888888888886
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.083333,
+          4.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Costa Rica",
+        "Age": 23,
+        "Height": 191.25,
+        "Weight": 75.75
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.083333,
+          9.933333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cote d'Ivoire",
+        "Age": 26,
+        "Height": 180.66666666666666,
+        "Weight": 73.33333333333333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.266667,
+          6.816666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Croatia",
+        "Age": 25,
+        "Height": 191.31654676258992,
+        "Weight": 91.67625899280576
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0,
+          45.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cuba",
+        "Age": 22,
+        "Height": 177.83756345177665,
+        "Weight": 76.96700507614213
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.35,
+          23.116666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cyprus",
+        "Age": 27,
+        "Height": 183.0,
+        "Weight": 82.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.366667,
+          35.166666666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Czech Republic",
+        "Age": 27,
+        "Height": 181.36111111111111,
+        "Weight": 79.50694444444444
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.466667,
+          50.083333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Czech Republic",
+        "Age": 31,
+        "Height": 177.34933333333333,
+        "Weight": 77.43466666666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.466667,
+          50.083333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Denmark",
+        "Age": 25,
+        "Height": 180.29019607843136,
+        "Weight": 75.45490196078431
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.583333,
+          55.66666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Djibouti",
+        "Age": 28,
+        "Height": 180.0,
+        "Weight": 64.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.15,
+          11.583333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Dominican Republic",
+        "Age": 25,
+        "Height": 173.33333333333334,
+        "Weight": 61.166666666666664
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.9,
+          18.466666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ecuador",
+        "Age": 22,
+        "Height": 167.0,
+        "Weight": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5,
+          -0.2166666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Egypt",
+        "Age": 26,
+        "Height": 179.25,
+        "Weight": 83.16666666666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          30.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Eritrea",
+        "Age": 29,
+        "Height": 160.0,
+        "Weight": 54.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.933333,
+          15.333333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Estonia",
+        "Age": 25,
+        "Height": 182.88235294117646,
+        "Weight": 90.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.716667,
+          59.43333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ethiopia",
+        "Age": 24,
+        "Height": 165.9245283018868,
+        "Weight": 52.094339622641506
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7,
+          9.033333333333331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Fiji",
+        "Age": 25,
+        "Height": 186.3846153846154,
+        "Weight": 96.46153846153847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.416667,
+          -18.133333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Finland",
+        "Age": 26,
+        "Height": 176.23971631205674,
+        "Weight": 72.6418439716312
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.933333,
+          60.16666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "France",
+        "Age": 26,
+        "Height": 179.11065989847717,
+        "Weight": 74.48121827411167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.333333,
+          48.86666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Gabon",
+        "Age": 26,
+        "Height": 190.0,
+        "Weight": 97.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.45,
+          0.3833333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Georgia",
+        "Age": 23,
+        "Height": 176.96875,
+        "Weight": 84.6875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.833333,
+          41.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Germany",
+        "Age": 26,
+        "Height": 180.340206185567,
+        "Weight": 75.36941580756013
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4,
+          52.516666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Germany",
+        "Age": 23,
+        "Height": 177.31557788944724,
+        "Weight": 72.84522613065327
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4,
+          52.516666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Germany",
+        "Age": 26,
+        "Height": 178.81550969355848,
+        "Weight": 74.42651657285803
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4,
+          52.516666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ghana",
+        "Age": 26,
+        "Height": 176.66666666666666,
+        "Weight": 70.33333333333333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.216667,
+          5.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Greece",
+        "Age": 21,
+        "Height": 174.34653465346534,
+        "Weight": 70.35643564356435
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.733333,
+          37.98333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Grenada",
+        "Age": 25,
+        "Height": 180.0,
+        "Weight": 66.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.75,
+          12.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Guatemala",
+        "Age": 21,
+        "Height": 178.0,
+        "Weight": 60.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.516667,
+          14.616666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Guyana",
+        "Age": 21,
+        "Height": 173.0,
+        "Weight": 54.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.15,
+          6.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Haiti",
+        "Age": 22,
+        "Height": 178.0,
+        "Weight": 75.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.333333,
+          18.53333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Hungary",
+        "Age": 27,
+        "Height": 178.7724399494311,
+        "Weight": 76.00695322376738
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.083333,
+          47.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Iceland",
+        "Age": 26,
+        "Height": 189.94117647058823,
+        "Weight": 91.29411764705883
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.95,
+          64.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "India",
+        "Age": 26,
+        "Height": 170.86458333333334,
+        "Weight": 65.4375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2,
+          28.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Indonesia",
+        "Age": 24,
+        "Height": 166.0,
+        "Weight": 63.73684210526316
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.816667,
+          -6.166666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Iran",
+        "Age": 25,
+        "Height": 174.76271186440678,
+        "Weight": 80.96610169491525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.416667,
+          35.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ireland",
+        "Age": 25,
+        "Height": 172.59259259259258,
+        "Weight": 67.44444444444444
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.233333,
+          53.31666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Israel",
+        "Age": 24,
+        "Height": 182.28571428571428,
+        "Weight": 82.28571428571429
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.233333,
+          31.766666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Italy",
+        "Age": 27,
+        "Height": 179.19811320754718,
+        "Weight": 75.65849056603774
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483333,
+          41.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Jamaica",
+        "Age": 24,
+        "Height": 175.84415584415584,
+        "Weight": 68.11688311688312
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8,
+          18.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Japan",
+        "Age": 27,
+        "Height": 168.76631079478054,
+        "Weight": 65.45314353499407
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75,
+          35.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Jordan",
+        "Age": 26,
+        "Height": 178.0,
+        "Weight": 68.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.933333,
+          31.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kazakhstan",
+        "Age": 25,
+        "Height": 175.8918918918919,
+        "Weight": 75.73648648648648
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.416667,
+          51.16666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kenya",
+        "Age": 20,
+        "Height": 171.88,
+        "Weight": 59.58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.816667,
+          -1.2833333333333332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "North Korea",
+        "Age": 24,
+        "Height": 162.18965517241378,
+        "Weight": 61.46551724137931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.75,
+          39.016666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "South Korea",
+        "Age": 25,
+        "Height": 172.7433155080214,
+        "Weight": 68.46167557932264
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.983333,
+          37.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kosovo",
+        "Age": 25,
+        "Height": 162.0,
+        "Weight": 52.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.166667,
+          42.66666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kuwait",
+        "Age": 23,
+        "Height": 178.0,
+        "Weight": 95.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.966667,
+          29.366666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kyrgyzstan",
+        "Age": 23,
+        "Height": 166.0,
+        "Weight": 62.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6,
+          42.86666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Latvia",
+        "Age": 25,
+        "Height": 180.09375,
+        "Weight": 88.21875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1,
+          56.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Lebanon",
+        "Age": 32,
+        "Height": 173.5,
+        "Weight": 87.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          33.86666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Liechtenstein",
+        "Age": 39,
+        "Height": 171.0,
+        "Weight": 64.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.516667,
+          47.13333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Lithuania",
+        "Age": 27,
+        "Height": 193.14754098360655,
+        "Weight": 94.31147540983606
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.316667,
+          54.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Luxembourg",
+        "Age": 28,
+        "Height": 176.33333333333334,
+        "Weight": 77.33333333333333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.116667,
+          49.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Macedonia",
+        "Age": 23,
+        "Height": 180.0,
+        "Weight": 85.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.433333,
+          42.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Malaysia",
+        "Age": 27,
+        "Height": 169.375,
+        "Weight": 65.125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7,
+          3.1666666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mauritius",
+        "Age": 27,
+        "Height": 175.0,
+        "Weight": 54.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.483333,
+          -20.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mexico",
+        "Age": 26,
+        "Height": 171.3421052631579,
+        "Weight": 63.81578947368421
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.133333,
+          19.433333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Moldova",
+        "Age": 27,
+        "Height": 174.625,
+        "Weight": 77.625
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.85,
+          47.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mongolia",
+        "Age": 26,
+        "Height": 170.0,
+        "Weight": 68.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.916667,
+          47.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Montenegro",
+        "Age": 25,
+        "Height": 175.28571428571428,
+        "Weight": 69.14285714285714
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.266667,
+          42.43333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Morocco",
+        "Age": 24,
+        "Height": 173.04347826086956,
+        "Weight": 58.65217391304348
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.816667,
+          34.016666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mozambique",
+        "Age": 26,
+        "Height": 165.0,
+        "Weight": 63.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.583333,
+          -25.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Namibia",
+        "Age": 25,
+        "Height": 180.0,
+        "Weight": 73.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.083333,
+          -22.566666666666663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Netherlands",
+        "Age": 25,
+        "Height": 179.18926553672316,
+        "Weight": 72.86723163841808
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916667,
+          52.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "New Zealand",
+        "Age": 30,
+        "Height": 180.95260663507108,
+        "Weight": 77.9004739336493
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.783333,
+          -41.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Niger",
+        "Age": 26,
+        "Height": 207.0,
+        "Weight": 90.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.116667,
+          13.516666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Nigeria",
+        "Age": 26,
+        "Height": 176.125,
+        "Weight": 73.57291666666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.533333,
+          9.083333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Norway",
+        "Age": 22,
+        "Height": 178.73776908023484,
+        "Weight": 72.58317025440313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          59.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Pakistan",
+        "Age": 21,
+        "Height": 173.22429906542055,
+        "Weight": 69.91588785046729
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05,
+          33.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Panama",
+        "Age": 26,
+        "Height": 184.33333333333334,
+        "Weight": 72.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.533333,
+          8.966666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Paraguay",
+        "Age": 27,
+        "Height": 181.47058823529412,
+        "Weight": 77.94117647058823
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.666667,
+          -25.266666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Peru",
+        "Age": 25,
+        "Height": 175.92857142857142,
+        "Weight": 69.71428571428571
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05,
+          -12.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Philippines",
+        "Age": 25,
+        "Height": 163.625,
+        "Weight": 58.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.966667,
+          14.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Poland",
+        "Age": 23,
+        "Height": 176.66970802919707,
+        "Weight": 73.55930656934306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0,
+          52.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Portugal",
+        "Age": 23,
+        "Height": 172.64,
+        "Weight": 67.48
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.133333,
+          38.71666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Puerto Rico",
+        "Age": 24,
+        "Height": 178.125,
+        "Weight": 68.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.116667,
+          18.466666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Qatar",
+        "Age": 25,
+        "Height": 181.8,
+        "Weight": 75.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.533333,
+          25.28333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Romania",
+        "Age": 28,
+        "Height": 173.43551088777218,
+        "Weight": 69.71189279731993
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1,
+          44.43333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Russia",
+        "Age": 23,
+        "Height": 177.0695652173913,
+        "Weight": 73.24782608695652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6,
+          55.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Russia",
+        "Age": 22,
+        "Height": 177.3562610229277,
+        "Weight": 72.09303350970018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6,
+          55.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Russia",
+        "Age": 26,
+        "Height": 176.8846838824577,
+        "Weight": 75.07836153161175
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6,
+          55.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Saudi Arabia",
+        "Age": 24,
+        "Height": 175.6,
+        "Weight": 67.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7,
+          24.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Senegal",
+        "Age": 24,
+        "Height": 190.0,
+        "Weight": 72.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.633333,
+          14.733333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Serbia",
+        "Age": 25,
+        "Height": 194.45901639344262,
+        "Weight": 94.09836065573771
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          44.833333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Serbia",
+        "Age": 26,
+        "Height": 191.31764705882352,
+        "Weight": 88.97647058823529
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          44.833333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Serbia",
+        "Age": 29,
+        "Height": 186.1619937694704,
+        "Weight": 83.34890965732087
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          44.833333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Slovakia",
+        "Age": 27,
+        "Height": 180.53191489361703,
+        "Weight": 77.82978723404256
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.116667,
+          48.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Slovenia",
+        "Age": 26,
+        "Height": 179.91489361702128,
+        "Weight": 76.2127659574468
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.516667,
+          46.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "South Africa",
+        "Age": 24,
+        "Height": 182.15942028985506,
+        "Weight": 78.21739130434783
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.216667,
+          -25.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Spain",
+        "Age": 23,
+        "Height": 180.5661252900232,
+        "Weight": 75.5614849187935
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.683333,
+          40.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Sri Lanka",
+        "Age": 28,
+        "Height": 168.0,
+        "Weight": 62.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.833333,
+          6.916666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Sudan",
+        "Age": 22,
+        "Height": 193.0,
+        "Weight": 72.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.533333,
+          15.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Suriname",
+        "Age": 27,
+        "Height": 180.0,
+        "Weight": 78.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.166667,
+          5.833333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Sweden",
+        "Age": 26,
+        "Height": 179.78580814717478,
+        "Weight": 76.52431011826545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.05,
+          59.333333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Switzerland",
+        "Age": 22,
+        "Height": 177.08163265306123,
+        "Weight": 74.8862973760933
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.466667,
+          46.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Syria",
+        "Age": 27,
+        "Height": 187.0,
+        "Weight": 72.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3,
+          33.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Taiwan",
+        "Age": 25,
+        "Height": 171.10204081632654,
+        "Weight": 68.95918367346938
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516667,
+          25.03333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Tajikistan",
+        "Age": 26,
+        "Height": 173.0,
+        "Weight": 84.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.766667,
+          38.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Tanzania",
+        "Age": 23,
+        "Height": 182.5,
+        "Weight": 66.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.283333,
+          -6.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Thailand",
+        "Age": 27,
+        "Height": 162.23333333333332,
+        "Weight": 56.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.516667,
+          13.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Togo",
+        "Age": 27,
+        "Height": 176.0,
+        "Weight": 73.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.216667,
+          6.116666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Tonga",
+        "Age": 24,
+        "Height": 185.0,
+        "Weight": 140.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.2,
+          -21.133333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Trinidad and Tobago",
+        "Age": 23,
+        "Height": 180.44827586206895,
+        "Weight": 79.44827586206897
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.516667,
+          10.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Trinidad and Tobago",
+        "Age": 27,
+        "Height": 178.0,
+        "Weight": 69.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.516667,
+          10.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Tunisia",
+        "Age": 25,
+        "Height": 177.58333333333334,
+        "Weight": 66.66666666666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.183333,
+          36.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Turkey",
+        "Age": 34,
+        "Height": 172.44285714285715,
+        "Weight": 76.91428571428571
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.866667,
+          39.93333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Uganda",
+        "Age": 22,
+        "Height": 171.28571428571428,
+        "Weight": 61.285714285714285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55,
+          0.3166666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ukraine",
+        "Age": 25,
+        "Height": 174.1958762886598,
+        "Weight": 69.43556701030928
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.516667,
+          50.43333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "United Arab Emirates",
+        "Age": 25,
+        "Height": 177.5,
+        "Weight": 74.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.366667,
+          24.466666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "United Kingdom",
+        "Age": 23,
+        "Height": 178.72309197651663,
+        "Weight": 74.03571428571429
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.083333,
+          51.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "United States",
+        "Age": 24,
+        "Height": 179.69990829894545,
+        "Weight": 75.14282439248052
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0,
+          38.883333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Uruguay",
+        "Age": 24,
+        "Height": 177.0,
+        "Weight": 77.16666666666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.166667,
+          -34.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Uzbekistan",
+        "Age": 24,
+        "Height": 176.26470588235293,
+        "Weight": 78.88235294117646
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.25,
+          41.31666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Venezuela",
+        "Age": 32,
+        "Height": 172.2,
+        "Weight": 62.93333333333333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.866667,
+          10.483333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Vietnam",
+        "Age": 24,
+        "Height": 164.75,
+        "Weight": 63.25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85,
+          21.03333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "US Virgin Islands",
+        "Age": 24,
+        "Height": 180.0,
+        "Weight": 90.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.933333,
+          18.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Zambia",
+        "Age": 27,
+        "Height": 183.0,
+        "Weight": 81.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.283333,
+          -15.416666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Zimbabwe",
+        "Age": 25,
+        "Height": 165.77272727272728,
+        "Weight": 60.40909090909091
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.033333,
+          -17.816666666666666
+        ]
+      }
+    }
+  ]
+}

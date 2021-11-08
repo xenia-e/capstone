@@ -1,0 +1,4085 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Afghanistan",
+        "Games": 9,
+        "Medal_Bronze": 2,
+        "Medal_Gold": 0,
+        "noMedal": 52,
+        "Medal_Silver": 0,
+        "Athletes": 54,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.183333,
+          34.516666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Albania",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 57,
+        "Medal_Silver": 0,
+        "Athletes": 57,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.816667,
+          41.31666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Algeria",
+        "Games": 15,
+        "Medal_Bronze": 6,
+        "Medal_Gold": 5,
+        "noMedal": 466,
+        "Medal_Silver": 4,
+        "Athletes": 481,
+        "totalWins": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.05,
+          36.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "American Samoa",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 21,
+        "Medal_Silver": 0,
+        "Athletes": 21,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.7,
+          -14.266666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Andorra",
+        "Games": 21,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 135,
+        "Medal_Silver": 0,
+        "Athletes": 135,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.516667,
+          42.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Angola",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 245,
+        "Medal_Silver": 0,
+        "Athletes": 245,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.216667,
+          -8.833333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Antigua and Barbuda",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 115,
+        "Medal_Silver": 0,
+        "Athletes": 115,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.85,
+          17.116666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Argentina",
+        "Games": 34,
+        "Medal_Bronze": 78,
+        "Medal_Gold": 72,
+        "noMedal": 1992,
+        "Medal_Silver": 70,
+        "Athletes": 2212,
+        "totalWins": 220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.666667,
+          -34.583333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Armenia",
+        "Games": 12,
+        "Medal_Bronze": 8,
+        "Medal_Gold": 2,
+        "noMedal": 190,
+        "Medal_Silver": 5,
+        "Athletes": 205,
+        "totalWins": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5,
+          40.16666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Aruba",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 41,
+        "Medal_Silver": 0,
+        "Athletes": 41,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.033333,
+          12.516666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Australia",
+        "Games": 43,
+        "Medal_Bronze": 477,
+        "Medal_Gold": 319,
+        "noMedal": 5420,
+        "Medal_Silver": 414,
+        "Athletes": 6630,
+        "totalWins": 1210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.133333,
+          -35.266666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Austria",
+        "Games": 41,
+        "Medal_Bronze": 99,
+        "Medal_Gold": 74,
+        "noMedal": 2884,
+        "Medal_Silver": 99,
+        "Athletes": 3156,
+        "totalWins": 272
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.366667,
+          48.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Azerbaijan",
+        "Games": 11,
+        "Medal_Bronze": 25,
+        "Medal_Gold": 7,
+        "noMedal": 219,
+        "Medal_Silver": 12,
+        "Athletes": 263,
+        "totalWins": 44
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.866667,
+          40.38333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bahamas",
+        "Games": 16,
+        "Medal_Bronze": 15,
+        "Medal_Gold": 14,
+        "noMedal": 311,
+        "Medal_Silver": 11,
+        "Athletes": 351,
+        "totalWins": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.35,
+          25.08333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bahrain",
+        "Games": 7,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 1,
+        "noMedal": 93,
+        "Medal_Silver": 1,
+        "Athletes": 96,
+        "totalWins": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.566667,
+          26.23333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bangladesh",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 48,
+        "Medal_Silver": 0,
+        "Athletes": 48,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.4,
+          23.716666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Barbados",
+        "Games": 12,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 189,
+        "Medal_Silver": 0,
+        "Athletes": 190,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.616667,
+          13.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Belarus",
+        "Games": 12,
+        "Medal_Bronze": 66,
+        "Medal_Gold": 24,
+        "noMedal": 1572,
+        "Medal_Silver": 41,
+        "Athletes": 1703,
+        "totalWins": 131
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.566667,
+          53.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Belgium",
+        "Games": 37,
+        "Medal_Bronze": 30,
+        "Medal_Gold": 15,
+        "noMedal": 1655,
+        "Medal_Silver": 44,
+        "Athletes": 1744,
+        "totalWins": 89
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.333333,
+          50.833333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Belize",
+        "Games": 12,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 73,
+        "Medal_Silver": 0,
+        "Athletes": 73,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.766667,
+          17.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Benin",
+        "Games": 11,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 57,
+        "Medal_Silver": 0,
+        "Athletes": 57,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.616667,
+          6.483333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bermuda",
+        "Games": 22,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 132,
+        "Medal_Silver": 0,
+        "Athletes": 133,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.783333,
+          32.28333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bhutan",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 29,
+        "Medal_Silver": 0,
+        "Athletes": 29,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.633333,
+          27.466666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bolivia",
+        "Games": 18,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 114,
+        "Medal_Silver": 0,
+        "Athletes": 114,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.15,
+          -16.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bosnia and Herzegovina",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 112,
+        "Medal_Silver": 0,
+        "Athletes": 112,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.416667,
+          43.86666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Botswana",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 82,
+        "Medal_Silver": 1,
+        "Athletes": 83,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9,
+          -24.633333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Brazil",
+        "Games": 27,
+        "Medal_Bronze": 172,
+        "Medal_Gold": 107,
+        "noMedal": 2737,
+        "Medal_Silver": 168,
+        "Athletes": 3184,
+        "totalWins": 447
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.916667,
+          -15.783333333333331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "British Virgin Islands",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 38,
+        "Medal_Silver": 0,
+        "Athletes": 38,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.616667,
+          18.416666666666668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Brunei Darussalam",
+        "Games": 5,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 9,
+        "Medal_Silver": 0,
+        "Athletes": 9,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.933333,
+          4.883333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Bulgaria",
+        "Games": 33,
+        "Medal_Bronze": 135,
+        "Medal_Gold": 53,
+        "noMedal": 2693,
+        "Medal_Silver": 140,
+        "Athletes": 3021,
+        "totalWins": 328
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.316667,
+          42.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Burkina Faso",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 37,
+        "Medal_Silver": 0,
+        "Athletes": 37,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.516667,
+          12.366666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Burundi",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 1,
+        "noMedal": 36,
+        "Medal_Silver": 1,
+        "Athletes": 38,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.35,
+          -3.3666666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cambodia",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 53,
+        "Medal_Silver": 0,
+        "Athletes": 53,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.916667,
+          11.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cameroon",
+        "Games": 15,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 16,
+        "noMedal": 233,
+        "Medal_Silver": 1,
+        "Athletes": 251,
+        "totalWins": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.516667,
+          3.8666666666666663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Canada",
+        "Games": 46,
+        "Medal_Bronze": 355,
+        "Medal_Gold": 352,
+        "noMedal": 6902,
+        "Medal_Silver": 340,
+        "Athletes": 7949,
+        "totalWins": 1047
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7,
+          45.41666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cape Verde",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 17,
+        "Medal_Silver": 0,
+        "Athletes": 17,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.516667,
+          14.916666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cayman Islands",
+        "Games": 12,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 73,
+        "Medal_Silver": 0,
+        "Athletes": 73,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.383333,
+          19.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Central African Republic",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 45,
+        "Medal_Silver": 0,
+        "Athletes": 45,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.583333,
+          4.366666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Chad",
+        "Games": 12,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 31,
+        "Medal_Silver": 0,
+        "Athletes": 31,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.033333,
+          12.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Chile",
+        "Games": 34,
+        "Medal_Bronze": 18,
+        "Medal_Gold": 3,
+        "noMedal": 488,
+        "Medal_Silver": 4,
+        "Athletes": 513,
+        "totalWins": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.666667,
+          -33.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "China",
+        "Games": 40,
+        "Medal_Bronze": 291,
+        "Medal_Gold": 351,
+        "noMedal": 4514,
+        "Medal_Silver": 347,
+        "Athletes": 5503,
+        "totalWins": 989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.383333,
+          39.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Colombia",
+        "Games": 18,
+        "Medal_Bronze": 14,
+        "Medal_Gold": 5,
+        "noMedal": 918,
+        "Medal_Silver": 8,
+        "Athletes": 945,
+        "totalWins": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.083333,
+          4.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Comoros",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 15,
+        "Medal_Silver": 0,
+        "Athletes": 15,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.233333,
+          -11.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cook Islands",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 37,
+        "Medal_Silver": 0,
+        "Athletes": 37,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.766667,
+          -21.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Costa Rica",
+        "Games": 15,
+        "Medal_Bronze": 2,
+        "Medal_Gold": 1,
+        "noMedal": 204,
+        "Medal_Silver": 1,
+        "Athletes": 208,
+        "totalWins": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.083333,
+          9.933333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cote d'Ivoire",
+        "Games": 13,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 1,
+        "noMedal": 143,
+        "Medal_Silver": 1,
+        "Athletes": 146,
+        "totalWins": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.266667,
+          6.816666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Croatia",
+        "Games": 14,
+        "Medal_Bronze": 36,
+        "Medal_Gold": 53,
+        "noMedal": 696,
+        "Medal_Silver": 50,
+        "Athletes": 835,
+        "totalWins": 139
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0,
+          45.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cuba",
+        "Games": 18,
+        "Medal_Bronze": 115,
+        "Medal_Gold": 155,
+        "noMedal": 1816,
+        "Medal_Silver": 124,
+        "Athletes": 2210,
+        "totalWins": 394
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.35,
+          23.116666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cura\u00e7ao",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 51,
+        "Medal_Silver": 0,
+        "Athletes": 51,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.916667,
+          12.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Cyprus",
+        "Games": 18,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 190,
+        "Medal_Silver": 1,
+        "Athletes": 191,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.366667,
+          35.166666666666664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Czech Republic",
+        "Games": 40,
+        "Medal_Bronze": 215,
+        "Medal_Gold": 97,
+        "noMedal": 4060,
+        "Medal_Silver": 207,
+        "Athletes": 4579,
+        "totalWins": 519
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.466667,
+          50.083333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Democratic Republic of the Congo",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 61,
+        "Medal_Silver": 0,
+        "Athletes": 61,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3,
+          -4.316666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Denmark",
+        "Games": 33,
+        "Medal_Bronze": 88,
+        "Medal_Gold": 101,
+        "noMedal": 1449,
+        "Medal_Silver": 66,
+        "Athletes": 1704,
+        "totalWins": 255
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.583333,
+          55.66666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Djibouti",
+        "Games": 7,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 28,
+        "Medal_Silver": 0,
+        "Athletes": 29,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.15,
+          11.583333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Dominica",
+        "Games": 7,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 18,
+        "Medal_Silver": 0,
+        "Athletes": 18,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.4,
+          15.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Dominican Republic",
+        "Games": 14,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 3,
+        "noMedal": 203,
+        "Medal_Silver": 2,
+        "Athletes": 209,
+        "totalWins": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.9,
+          18.466666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ecuador",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 1,
+        "noMedal": 255,
+        "Medal_Silver": 1,
+        "Athletes": 257,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5,
+          -0.2166666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Egypt",
+        "Games": 15,
+        "Medal_Bronze": 7,
+        "Medal_Gold": 1,
+        "noMedal": 857,
+        "Medal_Silver": 4,
+        "Athletes": 869,
+        "totalWins": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25,
+          30.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "El Salvador",
+        "Games": 11,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 172,
+        "Medal_Silver": 0,
+        "Athletes": 172,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2,
+          13.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Equatorial Guinea",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 23,
+        "Medal_Silver": 0,
+        "Athletes": 23,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.783333,
+          3.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Eritrea",
+        "Games": 5,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 36,
+        "Medal_Silver": 0,
+        "Athletes": 37,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.933333,
+          15.333333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Estonia",
+        "Games": 19,
+        "Medal_Bronze": 15,
+        "Medal_Gold": 10,
+        "noMedal": 750,
+        "Medal_Silver": 9,
+        "Athletes": 784,
+        "totalWins": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.716667,
+          59.43333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ethiopia",
+        "Games": 15,
+        "Medal_Bronze": 22,
+        "Medal_Gold": 22,
+        "noMedal": 294,
+        "Medal_Silver": 9,
+        "Athletes": 347,
+        "totalWins": 53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7,
+          9.033333333333331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Federated States of Micronesia",
+        "Games": 5,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 25,
+        "Medal_Silver": 0,
+        "Athletes": 25,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          158.15,
+          6.916666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Fiji",
+        "Games": 16,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 13,
+        "noMedal": 194,
+        "Medal_Silver": 0,
+        "Athletes": 207,
+        "totalWins": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.416667,
+          -18.133333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Finland",
+        "Games": 44,
+        "Medal_Bronze": 332,
+        "Medal_Gold": 168,
+        "noMedal": 3631,
+        "Medal_Silver": 205,
+        "Athletes": 4336,
+        "totalWins": 705
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.933333,
+          60.16666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "France",
+        "Games": 45,
+        "Medal_Bronze": 373,
+        "Medal_Gold": 285,
+        "noMedal": 6987,
+        "Medal_Silver": 327,
+        "Athletes": 7972,
+        "totalWins": 985
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.333333,
+          48.86666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Gabon",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 57,
+        "Medal_Silver": 1,
+        "Athletes": 58,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.45,
+          0.3833333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Georgia",
+        "Games": 12,
+        "Medal_Bronze": 18,
+        "Medal_Gold": 8,
+        "noMedal": 253,
+        "Medal_Silver": 6,
+        "Athletes": 285,
+        "totalWins": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.833333,
+          41.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Germany",
+        "Games": 52,
+        "Medal_Bronze": 1069,
+        "Medal_Gold": 1093,
+        "noMedal": 9976,
+        "Medal_Silver": 1014,
+        "Athletes": 13152,
+        "totalWins": 3176
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4,
+          52.516666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ghana",
+        "Games": 14,
+        "Medal_Bronze": 5,
+        "Medal_Gold": 0,
+        "noMedal": 291,
+        "Medal_Silver": 1,
+        "Athletes": 297,
+        "totalWins": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.216667,
+          5.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Greece",
+        "Games": 41,
+        "Medal_Bronze": 34,
+        "Medal_Gold": 27,
+        "noMedal": 1753,
+        "Medal_Silver": 40,
+        "Athletes": 1854,
+        "totalWins": 101
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.733333,
+          37.98333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Grenada",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 1,
+        "noMedal": 34,
+        "Medal_Silver": 1,
+        "Athletes": 36,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.75,
+          12.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Guam",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 81,
+        "Medal_Silver": 0,
+        "Athletes": 81,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.733333,
+          13.466666666666669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Guatemala",
+        "Games": 14,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 324,
+        "Medal_Silver": 1,
+        "Athletes": 325,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.516667,
+          14.616666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Guinea",
+        "Games": 11,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 42,
+        "Medal_Silver": 0,
+        "Athletes": 42,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.7,
+          9.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Guinea-Bissau",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 20,
+        "Medal_Silver": 0,
+        "Athletes": 20,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.583333,
+          11.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Guyana",
+        "Games": 13,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 83,
+        "Medal_Silver": 0,
+        "Athletes": 84,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.15,
+          6.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Haiti",
+        "Games": 14,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 70,
+        "Medal_Silver": 1,
+        "Athletes": 71,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.333333,
+          18.53333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Honduras",
+        "Games": 11,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 134,
+        "Medal_Silver": 0,
+        "Athletes": 134,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.216667,
+          14.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Hungary",
+        "Games": 43,
+        "Medal_Bronze": 274,
+        "Medal_Gold": 289,
+        "noMedal": 3886,
+        "Medal_Silver": 228,
+        "Athletes": 4677,
+        "totalWins": 791
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.083333,
+          47.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Iceland",
+        "Games": 31,
+        "Medal_Bronze": 2,
+        "Medal_Gold": 0,
+        "noMedal": 409,
+        "Medal_Silver": 15,
+        "Athletes": 426,
+        "totalWins": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.95,
+          64.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "India",
+        "Games": 24,
+        "Medal_Bronze": 39,
+        "Medal_Gold": 40,
+        "noMedal": 748,
+        "Medal_Silver": 17,
+        "Athletes": 844,
+        "totalWins": 96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2,
+          28.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Indonesia",
+        "Games": 14,
+        "Medal_Bronze": 11,
+        "Medal_Gold": 10,
+        "noMedal": 296,
+        "Medal_Silver": 17,
+        "Athletes": 334,
+        "totalWins": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.816667,
+          -6.166666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Iran",
+        "Games": 23,
+        "Medal_Bronze": 23,
+        "Medal_Gold": 18,
+        "noMedal": 606,
+        "Medal_Silver": 18,
+        "Athletes": 665,
+        "totalWins": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.416667,
+          35.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Iraq",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 122,
+        "Medal_Silver": 0,
+        "Athletes": 122,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4,
+          33.333333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ireland",
+        "Games": 26,
+        "Medal_Bronze": 8,
+        "Medal_Gold": 9,
+        "noMedal": 1010,
+        "Medal_Silver": 10,
+        "Athletes": 1037,
+        "totalWins": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.233333,
+          53.31666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Israel",
+        "Games": 21,
+        "Medal_Bronze": 6,
+        "Medal_Gold": 1,
+        "noMedal": 565,
+        "Medal_Silver": 0,
+        "Athletes": 572,
+        "totalWins": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.233333,
+          31.766666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Italy",
+        "Games": 43,
+        "Medal_Bronze": 387,
+        "Medal_Gold": 315,
+        "noMedal": 6637,
+        "Medal_Silver": 358,
+        "Athletes": 7697,
+        "totalWins": 1060
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.483333,
+          41.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Jamaica",
+        "Games": 24,
+        "Medal_Bronze": 43,
+        "Medal_Gold": 37,
+        "noMedal": 655,
+        "Medal_Silver": 74,
+        "Athletes": 809,
+        "totalWins": 154
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8,
+          18.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Japan",
+        "Games": 39,
+        "Medal_Bronze": 345,
+        "Medal_Gold": 226,
+        "noMedal": 6632,
+        "Medal_Silver": 272,
+        "Athletes": 7475,
+        "totalWins": 843
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75,
+          35.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Jordan",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 1,
+        "noMedal": 68,
+        "Medal_Silver": 0,
+        "Athletes": 69,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.933333,
+          31.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kazakhstan",
+        "Games": 12,
+        "Medal_Bronze": 31,
+        "Medal_Gold": 20,
+        "noMedal": 1270,
+        "Medal_Silver": 23,
+        "Athletes": 1344,
+        "totalWins": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.416667,
+          51.16666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kenya",
+        "Games": 17,
+        "Medal_Bronze": 27,
+        "Medal_Gold": 34,
+        "noMedal": 577,
+        "Medal_Silver": 39,
+        "Athletes": 677,
+        "totalWins": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.816667,
+          -1.2833333333333332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kiribati",
+        "Games": 4,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 11,
+        "Medal_Silver": 0,
+        "Athletes": 11,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.533333,
+          -0.8833333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kosovo",
+        "Games": 1,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 1,
+        "noMedal": 7,
+        "Medal_Silver": 0,
+        "Athletes": 8,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.166667,
+          42.66666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kuwait",
+        "Games": 11,
+        "Medal_Bronze": 2,
+        "Medal_Gold": 0,
+        "noMedal": 196,
+        "Medal_Silver": 0,
+        "Athletes": 198,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.966667,
+          29.366666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Kyrgyzstan",
+        "Games": 10,
+        "Medal_Bronze": 2,
+        "Medal_Gold": 0,
+        "noMedal": 197,
+        "Medal_Silver": 1,
+        "Athletes": 200,
+        "totalWins": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6,
+          42.86666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Laos",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 51,
+        "Medal_Silver": 0,
+        "Athletes": 51,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6,
+          17.966666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Latvia",
+        "Games": 15,
+        "Medal_Bronze": 12,
+        "Medal_Gold": 3,
+        "noMedal": 744,
+        "Medal_Silver": 17,
+        "Athletes": 776,
+        "totalWins": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1,
+          56.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Lebanon",
+        "Games": 22,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 215,
+        "Medal_Silver": 1,
+        "Athletes": 217,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          33.86666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Lesotho",
+        "Games": 11,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 51,
+        "Medal_Silver": 0,
+        "Athletes": 51,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.483333,
+          -29.316666666666663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Liberia",
+        "Games": 11,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 53,
+        "Medal_Silver": 0,
+        "Athletes": 53,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.8,
+          6.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Libya",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 29,
+        "Medal_Silver": 0,
+        "Athletes": 29,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.166667,
+          32.88333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Liechtenstein",
+        "Games": 28,
+        "Medal_Bronze": 4,
+        "Medal_Gold": 2,
+        "noMedal": 256,
+        "Medal_Silver": 2,
+        "Athletes": 264,
+        "totalWins": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.516667,
+          47.13333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Lithuania",
+        "Games": 14,
+        "Medal_Bronze": 48,
+        "Medal_Gold": 6,
+        "noMedal": 532,
+        "Medal_Silver": 7,
+        "Athletes": 593,
+        "totalWins": 61
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.316667,
+          54.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Luxembourg",
+        "Games": 28,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 1,
+        "noMedal": 415,
+        "Medal_Silver": 2,
+        "Athletes": 418,
+        "totalWins": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.116667,
+          49.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Macedonia",
+        "Games": 11,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 72,
+        "Medal_Silver": 0,
+        "Athletes": 73,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.433333,
+          42.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Madagascar",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 111,
+        "Medal_Silver": 0,
+        "Athletes": 111,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.516667,
+          -18.916666666666668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Malawi",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 80,
+        "Medal_Silver": 0,
+        "Athletes": 80,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.783333,
+          -13.966666666666669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Malaysia",
+        "Games": 15,
+        "Medal_Bronze": 5,
+        "Medal_Gold": 0,
+        "noMedal": 456,
+        "Medal_Silver": 11,
+        "Athletes": 472,
+        "totalWins": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7,
+          3.1666666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Maldives",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 42,
+        "Medal_Silver": 0,
+        "Athletes": 42,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5,
+          4.166666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mali",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 45,
+        "Medal_Silver": 0,
+        "Athletes": 45,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0,
+          12.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Malta",
+        "Games": 14,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 84,
+        "Medal_Silver": 0,
+        "Athletes": 84,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5,
+          35.88333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Marshall Islands",
+        "Games": 3,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 13,
+        "Medal_Silver": 0,
+        "Athletes": 13,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.383333,
+          7.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mauritania",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 27,
+        "Medal_Silver": 0,
+        "Athletes": 27,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.966667,
+          18.066666666666663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mauritius",
+        "Games": 9,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 109,
+        "Medal_Silver": 0,
+        "Athletes": 110,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.483333,
+          -20.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mexico",
+        "Games": 27,
+        "Medal_Bronze": 30,
+        "Medal_Gold": 24,
+        "noMedal": 2230,
+        "Medal_Silver": 22,
+        "Athletes": 2306,
+        "totalWins": 76
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.133333,
+          19.433333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Moldova",
+        "Games": 12,
+        "Medal_Bronze": 5,
+        "Medal_Gold": 0,
+        "noMedal": 214,
+        "Medal_Silver": 3,
+        "Athletes": 222,
+        "totalWins": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.85,
+          47.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Monaco",
+        "Games": 26,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 136,
+        "Medal_Silver": 0,
+        "Athletes": 136,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.416667,
+          43.73333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mongolia",
+        "Games": 25,
+        "Medal_Bronze": 14,
+        "Medal_Gold": 2,
+        "noMedal": 458,
+        "Medal_Silver": 9,
+        "Athletes": 483,
+        "totalWins": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.916667,
+          47.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Montenegro",
+        "Games": 5,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 80,
+        "Medal_Silver": 14,
+        "Athletes": 94,
+        "totalWins": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.266667,
+          42.43333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Morocco",
+        "Games": 17,
+        "Medal_Bronze": 12,
+        "Medal_Gold": 6,
+        "noMedal": 427,
+        "Medal_Silver": 5,
+        "Athletes": 450,
+        "totalWins": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.816667,
+          34.016666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Mozambique",
+        "Games": 10,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 1,
+        "noMedal": 47,
+        "Medal_Silver": 0,
+        "Athletes": 49,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.583333,
+          -25.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Myanmar",
+        "Games": 16,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 94,
+        "Medal_Silver": 0,
+        "Athletes": 94,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.15,
+          16.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Namibia",
+        "Games": 7,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 67,
+        "Medal_Silver": 4,
+        "Athletes": 71,
+        "totalWins": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.083333,
+          -22.566666666666663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Nauru",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 11,
+        "Medal_Silver": 0,
+        "Athletes": 11,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.920867,
+          -0.5477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Nepal",
+        "Games": 16,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 63,
+        "Medal_Silver": 0,
+        "Athletes": 63,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.316667,
+          27.716666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Netherlands",
+        "Games": 39,
+        "Medal_Bronze": 239,
+        "Medal_Gold": 218,
+        "noMedal": 3018,
+        "Medal_Silver": 251,
+        "Athletes": 3726,
+        "totalWins": 708
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916667,
+          52.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "New Zealand",
+        "Games": 33,
+        "Medal_Bronze": 78,
+        "Medal_Gold": 86,
+        "noMedal": 1729,
+        "Medal_Silver": 47,
+        "Athletes": 1940,
+        "totalWins": 211
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.783333,
+          -41.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Nicaragua",
+        "Games": 12,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 81,
+        "Medal_Silver": 0,
+        "Athletes": 81,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.25,
+          12.133333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Niger",
+        "Games": 4,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 14,
+        "Medal_Silver": 1,
+        "Athletes": 15,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.116667,
+          13.516666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Nigeria",
+        "Games": 15,
+        "Medal_Bronze": 44,
+        "Medal_Gold": 22,
+        "noMedal": 633,
+        "Medal_Silver": 30,
+        "Athletes": 729,
+        "totalWins": 96
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.533333,
+          9.083333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "North Korea",
+        "Games": 18,
+        "Medal_Bronze": 28,
+        "Medal_Gold": 15,
+        "noMedal": 582,
+        "Medal_Silver": 15,
+        "Athletes": 640,
+        "totalWins": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.75,
+          39.016666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Norway",
+        "Games": 43,
+        "Medal_Bronze": 159,
+        "Medal_Gold": 172,
+        "noMedal": 2546,
+        "Medal_Silver": 180,
+        "Athletes": 3057,
+        "totalWins": 511
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75,
+          59.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Oman",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 55,
+        "Medal_Silver": 0,
+        "Athletes": 55,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.583333,
+          23.616666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Pakistan",
+        "Games": 19,
+        "Medal_Bronze": 24,
+        "Medal_Gold": 42,
+        "noMedal": 259,
+        "Medal_Silver": 41,
+        "Athletes": 366,
+        "totalWins": 107
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.05,
+          33.68333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Palau",
+        "Games": 5,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 24,
+        "Medal_Silver": 0,
+        "Athletes": 24,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.633333,
+          7.483333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Palestine",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 18,
+        "Medal_Silver": 0,
+        "Athletes": 18,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.233333,
+          31.766666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Panama",
+        "Games": 15,
+        "Medal_Bronze": 2,
+        "Medal_Gold": 1,
+        "noMedal": 114,
+        "Medal_Silver": 0,
+        "Athletes": 117,
+        "totalWins": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.533333,
+          8.966666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Papua New Guinea",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 99,
+        "Medal_Silver": 0,
+        "Athletes": 99,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.183333,
+          -9.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Paraguay",
+        "Games": 12,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 84,
+        "Medal_Silver": 17,
+        "Athletes": 101,
+        "totalWins": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.666667,
+          -25.266666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Peru",
+        "Games": 20,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 390,
+        "Medal_Silver": 14,
+        "Athletes": 404,
+        "totalWins": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.05,
+          -12.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Philippines",
+        "Games": 21,
+        "Medal_Bronze": 5,
+        "Medal_Gold": 0,
+        "noMedal": 499,
+        "Medal_Silver": 3,
+        "Athletes": 507,
+        "totalWins": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.966667,
+          14.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Poland",
+        "Games": 39,
+        "Medal_Bronze": 244,
+        "Medal_Gold": 114,
+        "noMedal": 5118,
+        "Medal_Silver": 190,
+        "Athletes": 5666,
+        "totalWins": 548
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0,
+          52.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Portugal",
+        "Games": 25,
+        "Medal_Bronze": 10,
+        "Medal_Gold": 4,
+        "noMedal": 1076,
+        "Medal_Silver": 11,
+        "Athletes": 1101,
+        "totalWins": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.133333,
+          38.71666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Puerto Rico",
+        "Games": 23,
+        "Medal_Bronze": 5,
+        "Medal_Gold": 1,
+        "noMedal": 716,
+        "Medal_Silver": 2,
+        "Athletes": 724,
+        "totalWins": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.116667,
+          18.466666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Qatar",
+        "Games": 9,
+        "Medal_Bronze": 4,
+        "Medal_Gold": 0,
+        "noMedal": 151,
+        "Medal_Silver": 1,
+        "Athletes": 156,
+        "totalWins": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.533333,
+          25.28333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Republic of Congo",
+        "Games": 12,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 76,
+        "Medal_Silver": 0,
+        "Athletes": 76,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.283333,
+          -4.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Romania",
+        "Games": 31,
+        "Medal_Bronze": 257,
+        "Medal_Gold": 155,
+        "noMedal": 2880,
+        "Medal_Silver": 185,
+        "Athletes": 3477,
+        "totalWins": 597
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1,
+          44.43333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Russia",
+        "Games": 33,
+        "Medal_Bronze": 1083,
+        "Medal_Gold": 1465,
+        "noMedal": 6788,
+        "Medal_Silver": 1062,
+        "Athletes": 10398,
+        "totalWins": 3610
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6,
+          55.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Rwanda",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 35,
+        "Medal_Silver": 0,
+        "Athletes": 35,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.05,
+          -1.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Saint Kitts and Nevis",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 39,
+        "Medal_Silver": 0,
+        "Athletes": 39,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.716667,
+          17.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Saint Lucia",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 27,
+        "Medal_Silver": 0,
+        "Athletes": 27,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.0,
+          14.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Saint Vincent and the Grenadines",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 23,
+        "Medal_Silver": 0,
+        "Athletes": 23,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.216667,
+          13.133333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Samoa",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 46,
+        "Medal_Silver": 0,
+        "Athletes": 46,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -171.766667,
+          -13.816666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "San Marino",
+        "Games": 22,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 157,
+        "Medal_Silver": 0,
+        "Athletes": 157,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.416667,
+          43.93333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Sao Tome and Principe",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 15,
+        "Medal_Silver": 0,
+        "Athletes": 15,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.733333,
+          0.3333333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Saudi Arabia",
+        "Games": 11,
+        "Medal_Bronze": 4,
+        "Medal_Gold": 0,
+        "noMedal": 167,
+        "Medal_Silver": 1,
+        "Athletes": 172,
+        "totalWins": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7,
+          24.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Senegal",
+        "Games": 17,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 320,
+        "Medal_Silver": 1,
+        "Athletes": 321,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.633333,
+          14.733333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Serbia",
+        "Games": 35,
+        "Medal_Bronze": 147,
+        "Medal_Gold": 149,
+        "noMedal": 1872,
+        "Medal_Silver": 171,
+        "Athletes": 2339,
+        "totalWins": 467
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5,
+          44.833333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Seychelles",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 99,
+        "Medal_Silver": 0,
+        "Athletes": 99,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.45,
+          -4.616666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Sierra Leone",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 94,
+        "Medal_Silver": 0,
+        "Athletes": 94,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.233333,
+          8.483333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Slovakia",
+        "Games": 12,
+        "Medal_Bronze": 13,
+        "Medal_Gold": 15,
+        "noMedal": 993,
+        "Medal_Silver": 19,
+        "Athletes": 1040,
+        "totalWins": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.116667,
+          48.15
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Slovenia",
+        "Games": 14,
+        "Medal_Bronze": 26,
+        "Medal_Gold": 8,
+        "noMedal": 985,
+        "Medal_Silver": 13,
+        "Athletes": 1032,
+        "totalWins": 47
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.516667,
+          46.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Solomon Islands",
+        "Games": 7,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 13,
+        "Medal_Silver": 0,
+        "Athletes": 13,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.95,
+          -9.433333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Somalia",
+        "Games": 7,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 23,
+        "Medal_Silver": 0,
+        "Athletes": 23,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.333333,
+          2.066666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "South Africa",
+        "Games": 23,
+        "Medal_Bronze": 27,
+        "Medal_Gold": 19,
+        "noMedal": 1000,
+        "Medal_Silver": 23,
+        "Athletes": 1069,
+        "totalWins": 69
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.216667,
+          -25.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "South Korea",
+        "Games": 31,
+        "Medal_Bronze": 171,
+        "Medal_Gold": 190,
+        "noMedal": 3293,
+        "Medal_Silver": 200,
+        "Athletes": 3854,
+        "totalWins": 561
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.983333,
+          37.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "South Sudan",
+        "Games": 1,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 3,
+        "Medal_Silver": 0,
+        "Athletes": 3,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.616667,
+          4.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Spain",
+        "Games": 36,
+        "Medal_Bronze": 133,
+        "Medal_Gold": 83,
+        "noMedal": 3909,
+        "Medal_Silver": 215,
+        "Athletes": 4340,
+        "totalWins": 431
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.683333,
+          40.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Sri Lanka",
+        "Games": 14,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 122,
+        "Medal_Silver": 1,
+        "Athletes": 123,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.833333,
+          6.916666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Sudan",
+        "Games": 12,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 52,
+        "Medal_Silver": 1,
+        "Athletes": 53,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.533333,
+          15.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Suriname",
+        "Games": 12,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 1,
+        "noMedal": 54,
+        "Medal_Silver": 0,
+        "Athletes": 56,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.166667,
+          5.833333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Swaziland",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 55,
+        "Medal_Silver": 0,
+        "Athletes": 55,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.133333,
+          -26.316666666666663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Sweden",
+        "Games": 44,
+        "Medal_Bronze": 270,
+        "Medal_Gold": 195,
+        "noMedal": 4549,
+        "Medal_Silver": 296,
+        "Athletes": 5310,
+        "totalWins": 761
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.05,
+          59.333333333333336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Switzerland",
+        "Games": 43,
+        "Medal_Bronze": 138,
+        "Medal_Gold": 77,
+        "noMedal": 3781,
+        "Medal_Silver": 128,
+        "Athletes": 4124,
+        "totalWins": 343
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.466667,
+          46.91666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Syria",
+        "Games": 12,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 1,
+        "noMedal": 76,
+        "Medal_Silver": 0,
+        "Athletes": 78,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3,
+          33.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Taiwan",
+        "Games": 25,
+        "Medal_Bronze": 18,
+        "Medal_Gold": 3,
+        "noMedal": 1003,
+        "Medal_Silver": 28,
+        "Athletes": 1052,
+        "totalWins": 49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516667,
+          25.03333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Tajikistan",
+        "Games": 10,
+        "Medal_Bronze": 2,
+        "Medal_Gold": 1,
+        "noMedal": 61,
+        "Medal_Silver": 1,
+        "Athletes": 65,
+        "totalWins": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.766667,
+          38.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Tanzania",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 140,
+        "Medal_Silver": 2,
+        "Athletes": 142,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.283333,
+          -6.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Thailand",
+        "Games": 18,
+        "Medal_Bronze": 13,
+        "Medal_Gold": 9,
+        "noMedal": 639,
+        "Medal_Silver": 8,
+        "Athletes": 669,
+        "totalWins": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.516667,
+          13.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "The Gambia",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 38,
+        "Medal_Silver": 0,
+        "Athletes": 38,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.566667,
+          13.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Timor-Leste",
+        "Games": 5,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 6,
+        "Medal_Silver": 0,
+        "Athletes": 6,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.6,
+          -8.583333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Togo",
+        "Games": 11,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 0,
+        "noMedal": 49,
+        "Medal_Silver": 0,
+        "Athletes": 50,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.216667,
+          6.116666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Tonga",
+        "Games": 9,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 35,
+        "Medal_Silver": 1,
+        "Athletes": 36,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.2,
+          -21.133333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Trinidad and Tobago",
+        "Games": 20,
+        "Medal_Bronze": 20,
+        "Medal_Gold": 7,
+        "noMedal": 331,
+        "Medal_Silver": 7,
+        "Athletes": 365,
+        "totalWins": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.516667,
+          10.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Tunisia",
+        "Games": 14,
+        "Medal_Bronze": 6,
+        "Medal_Gold": 3,
+        "noMedal": 508,
+        "Medal_Silver": 3,
+        "Athletes": 520,
+        "totalWins": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.183333,
+          36.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Turkey",
+        "Games": 31,
+        "Medal_Bronze": 21,
+        "Medal_Gold": 29,
+        "noMedal": 845,
+        "Medal_Silver": 20,
+        "Athletes": 915,
+        "totalWins": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.866667,
+          39.93333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Turkmenistan",
+        "Games": 6,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 53,
+        "Medal_Silver": 0,
+        "Athletes": 53,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.383333,
+          37.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "US Virgin Islands",
+        "Games": 18,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 238,
+        "Medal_Silver": 1,
+        "Athletes": 239,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.933333,
+          18.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Uganda",
+        "Games": 14,
+        "Medal_Bronze": 2,
+        "Medal_Gold": 2,
+        "noMedal": 215,
+        "Medal_Silver": 3,
+        "Athletes": 222,
+        "totalWins": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55,
+          0.3166666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Ukraine",
+        "Games": 12,
+        "Medal_Bronze": 97,
+        "Medal_Gold": 46,
+        "noMedal": 2231,
+        "Medal_Silver": 51,
+        "Athletes": 2425,
+        "totalWins": 194
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.516667,
+          50.43333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "United Arab Emirates",
+        "Games": 8,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 1,
+        "noMedal": 93,
+        "Medal_Silver": 0,
+        "Athletes": 95,
+        "totalWins": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.366667,
+          24.466666666666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "United Kingdom",
+        "Games": 45,
+        "Medal_Bronze": 351,
+        "Medal_Gold": 322,
+        "noMedal": 6728,
+        "Medal_Silver": 349,
+        "Athletes": 7750,
+        "totalWins": 1022
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.083333,
+          51.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "United States",
+        "Games": 45,
+        "Medal_Bronze": 977,
+        "Medal_Gold": 2109,
+        "noMedal": 9802,
+        "Medal_Silver": 1276,
+        "Athletes": 14164,
+        "totalWins": 4362
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0,
+          38.883333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Uruguay",
+        "Games": 20,
+        "Medal_Bronze": 9,
+        "Medal_Gold": 14,
+        "noMedal": 312,
+        "Medal_Silver": 1,
+        "Athletes": 336,
+        "totalWins": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.166667,
+          -34.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Uzbekistan",
+        "Games": 12,
+        "Medal_Bronze": 17,
+        "Medal_Gold": 10,
+        "noMedal": 419,
+        "Medal_Silver": 7,
+        "Athletes": 453,
+        "totalWins": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.25,
+          41.31666666666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Vanuatu",
+        "Games": 8,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 29,
+        "Medal_Silver": 0,
+        "Athletes": 29,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.316667,
+          -17.733333333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Venezuela",
+        "Games": 21,
+        "Medal_Bronze": 10,
+        "Medal_Gold": 2,
+        "noMedal": 770,
+        "Medal_Silver": 3,
+        "Athletes": 785,
+        "totalWins": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.866667,
+          10.483333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Vietnam",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 1,
+        "noMedal": 178,
+        "Medal_Silver": 3,
+        "Athletes": 182,
+        "totalWins": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85,
+          21.03333333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Yemen",
+        "Games": 10,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 37,
+        "Medal_Silver": 0,
+        "Athletes": 37,
+        "totalWins": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.2,
+          15.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Zambia",
+        "Games": 13,
+        "Medal_Bronze": 0,
+        "Medal_Gold": 0,
+        "noMedal": 127,
+        "Medal_Silver": 1,
+        "Athletes": 128,
+        "totalWins": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.283333,
+          -15.416666666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CountryName": "Zimbabwe",
+        "Games": 14,
+        "Medal_Bronze": 1,
+        "Medal_Gold": 17,
+        "noMedal": 277,
+        "Medal_Silver": 4,
+        "Athletes": 299,
+        "totalWins": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.033333,
+          -17.816666666666666
+        ]
+      }
+    }
+  ]
+}
