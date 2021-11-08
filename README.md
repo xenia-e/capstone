@@ -92,4 +92,19 @@ which sport you must practice should you choose to win a gold medal in the next 
 ## Tools
 To create the final dashboard we will work with JavaScript, CSS and Bootstrap. 
 
+## Interactive element outline
+In the next draft of our dashboard we aim to include the following **interactive element**: 
 
+On the logo of the Olympic Games we will place an *input field* on each Olympic circle. 
+
+One *input field* that asks for **country of birth** <br>
+One *input field* that asks for your **gender**<br>
+One *input field* that asks for your **age**<br>
+One *input field* that ask for your **weight**<br>
+One *input field* that asks for your **height**<br>
+
+After entering the last input field the page automatically refreshes and produces a prediction on 
+which sport you must practice should you choose to win a gold medal in the next Olympic Games. 
+
+## Tools
+To create the final dashboard we will work with JavaScript, CSS and Bootstrap. 
