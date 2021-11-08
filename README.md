@@ -48,37 +48,50 @@ Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resou
 ![Insert schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/ERD.png)
 
 
-
-# Machine Learning Model Outline
+# Machine Learning Model:
 
 Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
 
+#### Pre-Processing: 
+* Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics. 
+* Binned countries with less than 100 entries to "Other" category
+* Dropped Name, Team, Sport, Event and Medal columns as these are not needed for our model 
+* Encoded Sex, NOC and Games as these are object data 
 
-### Questions about the model:
+#### Feature Selection:
+* X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member
+* y: Win (yes or no) 
+* We chose these because we are looking at physical features. We kept NOC (team) and games (year) because these also determine physical attributes. 
 
-**Which model did you choose and why?** 
-We need to visualize our data to explore it and determine the best statistical test and training model to use.
-
-We will be using a supervised machine learning model because we already know what data we are trying to predict.
-
-If the data is structured tabular data, we would like to use a Random Forest Classifier. This is an ensemble learning method for classification and regression that take in many small decision trees for training for a more accurate output.
-
-We would also like to use a neural network and compare the accuracy and results.
-
-Pre-Processing:
-Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics.
-Binned countries with less than 100 entries to "Other" category
-Dropped Name, Team, Sport, Event and Medal columns as these are not needed for our model
-Encoded Sex, NOC and Games as these are object data
-
-**How are you training your model?**
-X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member
-y: Win (yes or no)
-We chose these because we are looking at physical features. We kept NOC (team) and games (year) because these also determine physical attributes.
-
-#### What is the model's accuracy? 
-* We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.
-* Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively.
+#### Model Choice - Balanced Random Forest Classifier:
+* We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.  
+* Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively. 
 * Balanced Accuracy Score: 85%
+
+
+# Dashboard
+* In our dashboard we feature a detailed analysis of gold medal winning teams and the association to the team’s average BMI. 
+
+* From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare. 
+
+The graphs and dashboard were created in Tableau Public.
+https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes
+
+## Interactive element outline
+In the next draft of our dashboard we aim to include the following **interactive element**: 
+
+On the logo of the Olympic Games we will place an *input field* on each Olympic circle. 
+
+One *input field* that asks for **country of birth** <br>
+One *input field* that asks for your **gender**<br>
+One *input field* that asks for your **age**<br>
+One *input field* that ask for your **weight**<br>
+One *input field* that asks for your **height**<br>
+
+After entering the last input field the page automatically refreshes and produces a prediction on 
+which sport you must practice should you choose to win a gold medal in the next Olympic Games. 
+
+## Tools
+To create the final dashboard we will work with JavaScript, CSS and Bootstrap. 
 
 
