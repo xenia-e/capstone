@@ -46,6 +46,7 @@ Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resou
 ![Insert schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/ERD.png)
 
 
+
 # Machine Learning Model:
 
 Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
@@ -72,8 +73,11 @@ Using data from the Olympic games from 1900 to 2016, we are using a Random Fores
 
 * From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare. 
 
-The graphs and dashboard were created in Tableau Public.
-https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes
+The graphs and dashboard were created in [Tableau Public.](
+https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes)
+
+[Draft of the interactive map](https://xenia-e.github.io/capstone/) was created using **javascript** and **Leaflet** library. The original dataset was preprocessed and converted into GeoJSON files. 
+A map presenting visualizations of countries Olympic achievements and outline of typical Olympic Medal Winner in certain country. 
 
 ## Interactive element outline
 In the next draft of our dashboard we aim to include the following **interactive element**: 
