@@ -2,9 +2,28 @@ LC
 # **Team NaN: Olympic Athletes**
 
 
-## Overview of the analysis:
+### Team roles Week 2:
+On week 2 we added the dashboard task to the X role. 
 
-### **Selected topic**
+![Team roles](https://github.com/xenia-e/capstone/blob/main/Report_images/Team_roles_w2.png)
+
+### Communication protocol:
+
+To accomplish the goals of this project, the Nan team has placed a communication protocol to promote effective communication within the team as follows:
+- **Rapid communication channel**: The first step of communication is to a Slack a message for the team members. Through this group, we have daily check-ins and we follow up questions or emergency comments regarding the progress of the project. 
+
+- **Zoom meetings**: We host multiple team meetings each week and discuss progress and the requirements for each role. 
+
+- **Team meeting notes**: We decided to record the team meeting highlights and next steps to stay on the same understanding of the project’s progress. 
+
+- **Github**: Our team uses Git as the platform to record the individual and team progress on the project. 
+
+
+### Presentation: [Google Slides](https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325)
+
+# **Overview of the analysis**
+
+### **Selected topic**:
 
 Olympic Athletes
 
@@ -20,47 +39,13 @@ Data is an important part of the sports industry. Not only can data analytics he
 
 ### **Description of the source of data**: 
 
-The data was sourced from Kaggle from an article on Olympic Games that delves on data from 1986 - 2021. The selected tables have data with more than 1,000 data points. 
+The data was sourced from Kaggle from an article on Olympic Games that delves on data from 120 years of olympic history. The selected tables have data with more than 1,000 data points. The selected two tables were cleaned up using Pandas (Jupyter Notebook) and were explored using PostgreSQL (PgAdmin). 
 
-We are starting the project with four data sets: 
- 
-[Athletes](https://github.com/xenia-e/capstone/blob/SocoH/olympic_athletes.csv)
+Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resources/Final_athlete_clean_data.csv) and [Games](https://github.com/xenia-e/capstone/blob/main/Resources/olypic_games_clean.csv)
 
- ![Athletes](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/athletes_data.png)
+# Database outline 
 
- [Hosts](https://github.com/xenia-e/capstone/blob/SocoH/olympic_hosts.csv) 
-
- ![Hosts](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/host_data.png)
-
- [Medals](https://github.com/xenia-e/capstone/blob/SocoH/olympic_medals.csv)
- 
- ![Medals](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/medals_data.png)
-
- [Results](https://github.com/xenia-e/capstone/blob/SocoH/olympic_results.csv)
- 
- ![Results](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/results_data.png)
- 
- 
-
-# **Team roles**:
-
-![Team roles](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/Team_roles.png)
-
-
-### Communication protocol
-
-To accomplish the goals of this project, the Nan team has placed a communication protocol to promote effective communication within the team as follows:
-- **Rapid communication channel**: The first step of communication is to a Slack a message for the team members. Through this group, we have daily check-ins and we follow up questions or emergency comments regarding the progress of the project. 
-
-- **Zoom meetings**: We host multiple team meetings each week and discuss progress and the requirements for each role. 
-
-- **Team meeting notes**: We decided to record the team meeting highlights and next steps to stay on the same understanding of the project’s progress. 
-
-- **Github**: Our team uses Git as the platform to record the individual and team progress on the project. 
-
-# Database provisional outline 
-
-![Insert provisional schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/Provisional_ERD.png)
+![Insert schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/ERD.png)
 
 
 
