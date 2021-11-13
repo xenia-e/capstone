@@ -4,30 +4,213 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The map for the project</title>
+  <title>NaN Group</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Poppins:300|Roboto:300" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- code highlight library -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script> 
+  <script>hljs.highlightAll();</script>
   <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-  crossorigin=""/>
-  <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="./map/static/css/style.css">
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+  
   <!-- d3 JavaScript -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- Custom css -->
+    <link rel="stylesheet" href="./NaNSite/static/css/style.css">
 </head>
 <body>
 
-  <!-- The div that holds our map -->
-  <div id="mapid"></div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div id="navbar" class="navbar-collapse collapse">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <strong class="navbar-brand">NaN</strong>
+      </div>
+    </div>
 
-  <!-- Leaflet JavaScript -->
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-  crossorigin=""></script>
-  <!-- API key -->
-  <script type="text/javascript" src="./map/static/js/config.js"></script>
-  <!-- Our JavaScript -->
-  <script type="text/javascript" src="./map/static/js/olympicMap.js"></script>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Project Overview <span class="sr-only">(current)</span></a></li>
+        <li><a href="https://github.com/xenia-e/capstone">NaN Github</a></li>
+        <li><a href="https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1">Tableu dashbord</a></li>
+        <li><a href="https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325">Slides</a></li>
+      </ul>
+ 
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Hero image area -->
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-md-offset-6">
+        <h1>Can predict a win?</h1>
+        <p> Data is an important part of the sports industry. Not only can data analytics help teams win games, 
+        but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. 
+        Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on personal features.</p> 
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Main area -->
+<div class="container">
+    <div class="media">
+      <blockquote>"Can we use predict an athlete’s chances of winning a medal based on their physical features?" We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history</blockquote>
+    </div> 
+    <div class="media">
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h4 class="media-headding">Reason we selected the topic:</h4>
+        <p>Data is an important part of the sports industry. Not only can data analytics help teams win games, but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on on pertinent features, such as age, height, and nationality, and previously won medals using a Random Forest Classifier model. </p>
+        </div>
+    </div>
+    <div class="media">
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h4 class="media-headding">Description of the source of data:</h4>
+        <p>The data was sourced from Kaggle from an article on Olympic Games that delves on data from 120 years of olympic history. The selected tables have data with more than 1,000 data points. The selected two tables were cleaned up using Pandas (Jupyter Notebook) and were explored using PostgreSQL (PgAdmin).</p>
+        <p>We used additional data with Olympic countries' Capitals longitude and latitude for creating an interactive map.</p>
+        <p>Original dataset contains data spanning from Athens 1896 to Rio 2016. Features listed for each athlete are:
+          <ol>
+            <li>ID (unique identifier for each athlete to account for duplicate names)</li>
+            <li>Name</li>
+            <li>Sex (F for female, M for male)</li>
+            <li>Age</li>
+            <li>Height (in cm)</li>
+            <li>Weight (in kg)</li>
+            <li>Team</li>
+            <li>NOC — three-letter code for each country established by the National Olympics Committee (e.g., USA: United States of America)</li>
+            <li>Games (e.g., 2008 Summer, 2010 Winter)</li>
+            <li>Sport (e.g., Basketball)</li>
+            <li>Event (e.g., Basketball Men's Basketball)</li>
+            <li>Medal (Gold, Silver, Bronze, NA)</li>
+          </ol> </p>
+        <p>Additional dataset contain listed data for each of the Olympic games:</p>
+        <ul>
+          <li>Games (e.g., 2008 Summer, 2010 Winter)</li>
+          <li>Year</li>
+          <li>Season (Summer or Winter)</li>
+          <li>City (e.g., Tokyo)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="media"> 
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h2 class=media-heading>Initial Data Exploration and ETL process</h2>
+        <p>First we load our dataset using pandas </p>
+        <pre><code class="language-py">
+          import pandas as pd
+          athletes_data = pd.read_csv(f'{file_dir}/Raw_Data/athletes_data.csv', low_memory=False)
+          print('Datasset shape:', athletes_data.shape)
+          print('Dataset columns:', athletes_data.columns)
+        </code></pre>
+        <pre><code class="language-plaintext">
+          Datasset shape: (271116, 12)
+          Dataset columns: Index(['ID', 'Name', 'Sex', 'Age', 'Height', 'Weight', 'Team', 'NOC', 'Games',
+                 'Sport', 'Event', 'Medal'], dtype='object')</code></pre>
+        <p>Using dropna method we clear all rows with no data in features columns </p>
+        <pre><code class=language-python>athletes_data_nona = athletes_data.dropna(subset=['Age', 'Height', 'Weight', 'Sex'])</code></pre>
+        <p>In addition to that we decided to drop more data that had no a lot of entries to affect dataset using groupby method combined with lamda function</p>
+        <pre><code class=language-python>
+          athletes_data_nona.groupby('Games').filter(lambda x : len(x)>70)
+          athletes_sports.groupby('Sport').filter(lambda x : len(x)>100)</code></pre>
+
+        <h4>Preprocessing data for the DEA & ML</h4>
+        <p>Adding new column with corresponding to y values of future maching learning model with 0 for all NA values in and 1 for any other than NA value in 'Medal' column</p>
+        <pre><code class=language-python>
+        medals = athletes_data['Medal'].to_list()
+        win=[]
+          for medal in medals:
+            if pd.isna(medal):
+              win.append(0)
+            else:
+              win.append(1)
+
+            athletes_data['Win'] = win
+            athletes_data
+        </code></pre>
+        <p>Adding bodey mass index for the DEA</p>
+        <pre><code class=language-python>
+        athletes_data['BMI'] = athletes_data.apply(lambda row: row.Weight/(row.Height*row.Height/10000) , axis=1)
+      </code></pre>
+      <p>Team desided to use team win counts and medals per team athlete as additional data entry</p>
+      <pre><code class=language-python>
+        acthletes_medals = athletes_data.groupby("NOC").Win.sum()
+        athletes_medals_df = pd.DataFrame(acthletes_medals) #create df
+        athletes_medals_df.reset_index(inplace=True) #reset index
+        athletes_medals_df.rename(columns = {'Win':'Team_wins'}, inplace = True)
+        Team_counts = athletes_data['NOC'].value_counts()
+        team_counts_df = pd.DataFrame(Team_counts)
+        team_counts_df.reset_index(inplace=True)
+        team_counts_df.rename(columns = {'NOC': 'Total_team_members', 'index':'NOC'}, inplace = True)
+        medals_merged = pd.merge(team_counts_df, athletes_medals_df, on='NOC', how='inner')
+        # calculate wins per team member
+        medals_merged['Win_per_member'] = medals_merged.apply(lambda row: row.Team_wins/row.Total_team_members , axis=1)
+        # drop total team members
+        medals_merged = medals_merged.drop(['Total_team_members'], axis=1)
+        athletes_data_merged = pd.merge(athletes_data, medals_merged, on='NOC', how='inner')
+        athletes_data_merged['Medal'] = athletes_data_merged['Medal'].fillna('No Medal') # fill NaNs in ' Medal' with ' No Medal
+        athletes_data_merged = athletes_data_merged.sort_values('ID')
+
+        athletes_data_merged.head()
+        </code></pre>
+        <p>The final athletes data table
+          <img src="./NaNSite/static/images/final_data.png" style='width: 100%;' alt="">
+        </p>
+        <p>Finaly we saved file in csv format to import it into SQL database later</p>
+        <pre><code class=language-python>athletes_clean_df.to_csv('../Resources/athletes_data_clean.csv', index=False)</code></pre>
+
+      </div>
+    </div>
+
+
+
+    <div class="media"> 
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h2 class=media-heading>Data Exploration</h2>
+        <p>We sorted </p>
+        <div id="mapid"></div>
+      </div>  
+
+
+
+    
+</div>
+
+
+
+
+<footer>
+<p class="small">This presentation is an academic project and for educational purposes only. Opinions or points of view expressed in this presentation represent the view of the presenter, and does not necessarily represent the official position or policies of the International Olympic Committee. The illustrations appearing in this presentation are depicted for illustrative purposes only.</p>
+</footer>
+
+
+
+<!-- Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<!-- API key -->
+<script type="text/javascript" src="./NaNSite/static/js/config.js"></script>
+<!-- Our JavaScript -->
+<script type="text/javascript" src="./NaNSite/static/js/olympicMap.js"></script>
 
 </body>
 </html>
+

@@ -16,6 +16,15 @@ font-Size: 24pt;
     margin-top:3em;
     text-align: left;
   }
+  .circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-color: rgb(133, 139, 151);
+    border-width: 5px;
+    border-style: solid;
+  }
+    
 /* NAVBAR STYLES */
 .navbar-brand{
   color: white;
@@ -37,6 +46,7 @@ font-Size: 24pt;
     text-shadow: rgba(21, 34, 56, 0.8) 10px 20px 9px;
   }
 
+/* MAP styles */
 
     .item {
         break-inside: avoid-column;   
