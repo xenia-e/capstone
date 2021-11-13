@@ -47,6 +47,10 @@ font-Size: 24pt;
   }
 
 /* MAP styles */
+#mapid{
+  height: 300px !important;
+}
+
 
     .item {
         break-inside: avoid-column;   
@@ -60,7 +64,7 @@ font-Size: 24pt;
   /* Style the footer */
   footer {
     bottom:0;
-    background-color: #777;
+    background-color: rgb(52, 61, 82);
     padding: 10px;
     text-align: center;
     color: white;

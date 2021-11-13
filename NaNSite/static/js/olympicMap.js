@@ -19,8 +19,8 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
-	center: [40.21, 2.86],
-	zoom: 3,
+	center: [35.93, 14.37],
+	zoom: 2,
 	layers: [streets]
 });
 
@@ -37,9 +37,10 @@ let averageWinner = new L.LayerGroup();
 
 // 2. Add a reference to the tectonic plates group to the overlays object.
 let overlays = {
+  "Average Athlete": averageWinner,
   "Olympic Countries": olympicCountries,
   "Medals won by countries": olympicMedals,
-  "Average Athlete": averageWinner,
+
 };
 
 // Then we add a control to the map that will allow the user to change which
@@ -47,7 +48,7 @@ let overlays = {
 L.control.layers(baseMaps, overlays).addTo(map);
 
 // Retrieve the GeoJSON data.
-d3.json("./NanSite/static/js/mapData.geojson").then(function(data) {
+d3.json("./NaNSite/static/js/mapData.geojson").then(function(data) {
 
   // This function returns the style data for each of the country we plot on
   // the map. We pass the to games participated into two separate functions
@@ -104,41 +105,40 @@ d3.json("./NanSite/static/js/mapData.geojson").then(function(data) {
     }
   }).addTo(olympicCountries);
 
-  // Then we add  layer to our map.
-  olympicCountries.addTo(map);
 
-  // Here we create a legend control object.
-    let legend = L.control({
-      position: "bottomright"
-    });
+//   // Here we create a legend control object.
+//     let legend = L.control({
+//       position: "bottomright"
+//     });
   
-    // Then add all the details for the legend
-    legend.onAdd = function() {
-      let div = L.DomUtil.create("div", "info legend");
-      //labels = ['<strong> Games participaded </strong>'];
+//     // Then add all the details for the legend
+//     legend.onAdd = function() {
+//       let div = L.DomUtil.create("div", "info legend");
+//       //labels = ['<strong> Games participaded </strong>'];
   
-      const games = ['<5', '>5', '>10', '>20', '>30', '>40'];
-      const colors = [
-        "#98ee00",
-        "#d4ee00",
-        "#eecc00",
-        "#ee9c00",
-        "#ea822c",
-        "#ea2c2c"
-      ];
+//       const games = ['<5', '>5', '>10', '>20', '>30', '>40'];
+//       const colors = [
+//         "#98ee00",
+//         "#d4ee00",
+//         "#eecc00",
+//         "#ee9c00",
+//         "#ea822c",
+//         "#ea2c2c"
+//       ];
   
-  // Looping through our intervals to generate a label with a colored square for each interval.
-    for (var i = 0; i < games.length; i++) {
-      div.innerHTML +=        
-        "<i style='background: " + colors[i] + "'></i>&nbsp;&nbsp;" +
-        games[i] + "</br>";
+//   // Looping through our intervals to generate a label with a colored square for each interval.
+//     for (var i = 0; i < games.length; i++) {
+//       div.innerHTML +=        
+//         "<i style='background: " + colors[i] + "'></i>&nbsp;&nbsp;" +
+//         games[i] + "</br>";
       
-      }
-      return div;
-    };
+//       }
+//       return div;
+//     };
   
-    // Finally, we our legend to the map.
-    legend.addTo(map);
+//     // Finally, we our legend to the map.
+//     legend.addTo(map);
+// 
 });
 
 // ADDING MEDALS LAYER
@@ -198,7 +198,7 @@ d3.json("./NaNSite/static/js/mapData.geojson").then(function(data) {
 
 // ADDING ATHLETES LAYER
 
-d3.json("./NanSite/static/js/athletes.geojson").then(function(data) {
+d3.json("./NaNSite/static/js/athletes.geojson").then(function(data) {
   function styleInfo(feature) {
     return {
       opacity: 1,
@@ -215,10 +215,10 @@ d3.json("./NanSite/static/js/athletes.geojson").then(function(data) {
     	// We turn each feature into a circleMarker on the map.
     	pointToLayer: function(feature, latlng) {
         var trophyIcon = L.icon({
-          iconUrl: './NanSite/static/images/trophy.png',
+          iconUrl: './NaNSite/static/images/trophy.png',
         
           iconSize:     [15, 15], // size of the icon
-          iconAnchor:   [17, 38], // point of the icon which will correspond to marker's location
+          iconAnchor:   [6, 15], // point of the icon which will correspond to marker's location
           popupAnchor:  [-3, -3] // point from which the popup should open relative to the iconAnchor
         });
         return L.marker(latlng, {icon: trophyIcon})
@@ -232,9 +232,8 @@ d3.json("./NanSite/static/js/athletes.geojson").then(function(data) {
        );
     }
   }).addTo(averageWinner);
-
-  // Then we add  layer to our map.
-averageWinner.addTo(map);
+    // Then we add  layer to our map.
+    averageWinner.addTo(map);
 
 });
 
