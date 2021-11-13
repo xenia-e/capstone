@@ -124,7 +124,7 @@
           Datasset shape: (271116, 12)
           Dataset columns: Index(['ID', 'Name', 'Sex', 'Age', 'Height', 'Weight', 'Team', 'NOC', 'Games',
                  'Sport', 'Event', 'Medal'], dtype='object')</code></pre>
-        <p>Using dropna method we clear all rows with no data in features columns </p>
+        <p>Using dropna method we clear all rows with no data in features columns for good measure:</p>
         <pre><code class=language-python>athletes_data_nona = athletes_data.dropna(subset=['Age', 'Height', 'Weight', 'Sex'])</code></pre>
         <p>In addition to that we decided to drop more data that had no a lot of entries to affect dataset using groupby method combined with lamda function</p>
         <pre><code class=language-python>
@@ -179,8 +179,7 @@
       </div>
     </div>
 
-
-
+<!--  analysis -->
     <div class="media"> 
       <div class="media-left"><div class="circle"></div></div>
       <div class="media-body">
@@ -188,10 +187,13 @@
         <p>We sorted all athletes who eve won Olympic medal, calculated average weight and hight of these athlets and put it on the map. Additional layer show us basic information about Countries performans on Olympic Games </p>
         </div>
       </div>
+      <!-- MAP -->
       <div class="container" >
         <div id="mapid"> </div>
       </div>
       <div class="row" style="margin-bottom: 2.5em;"></div>
+
+      <!-- PLOTS -->
       <div class="row">
         <div class="col-md-7">
           <div class='tableauPlaceholder' id='viz1636831161310' style='position: relative'>
@@ -294,9 +296,73 @@
       </div> 
       <div class="row"></div>
     
+    <!-- ML -->
+    <div class="media">
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h2>Machine Learning Model:</h2>
+        <p>Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier (RFC) to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code <a href='https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb'>here</a>.</p>
+        <p>We will use gimnastics as an example for our RFC.</p>
+        <h4>Pre-Processing:</h4>
+        <ul>
+          <li>Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics.</li>
+          <li>Binned countries with less than 100 entries to "Other" category</li>
+          <li>Dropped Name, Team, Sport, Event and Medal columns as these are not needed for our model</li>
+          <li>Encoded Sex, NOC and Games as these are object data</li>
+        </ul>
+        <h4>Feature Selection:</h4>
+        <ul>
+          <li>X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member</li>
+          <li>y: Win (yes or no)</li>
+        We chose these because we are looking at physical features. We kept NOC (team) and games (year) because these also determine physical attributes.
+        </ul>
+        <h4></h4>
+        <p>We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.</p>
+        <p>Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively.</p>
+        <p> Balanced Accuracy Score: 85%</p>
+        <pre><code class='language-py'>
+        In:  # Calculate the balanced accuracy score
+            from sklearn.metrics import balanced_accuracy_score
+            predictions = forest.predict(X_test)
+            balanced_accuracy_score(y_test, predictions)
+        
+        OUT: 0.8544278996865204
+        </code></pre>
+        <p>Add description for the following</p>
+        <pre><code class='language-py'>
+        IN: # Display the confusion matrix
+              from sklearn.metrics import confusion_matrix
+              matrix = confusion_matrix(y_test, predictions)
+              print(matrix)
+        OUT:  [[266  53]
+               [  3  21]]
+        </code></pre>
+        <p>Add description for following</p>
+        <pre><code class='language-py'>
+        IN: # Print the imbalanced classification report
+            from imblearn.metrics import classification_report_imbalanced
+            report = classification_report_imbalanced(y_test, predictions)
+            print(report)
+        OUT:      pre       rec       spe        f1       geo       iba       sup
 
+          0       0.99      0.83      0.88      0.90      0.85      0.73       319
+          1       0.28      0.88      0.83      0.43      0.85      0.73        24
 
-      </div>  
+    avg / total   0.94      0.84      0.87      0.87      0.85      0.73       343
+
+        </code></pre>
+      </div>
+    </div>  
+    <div class="media">
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h2>Conclusion</h2>
+        <p>While RFC can be a powerful tool for statistical modeling, they do have their drawbacks as any othe model. </p>
+        <p>If you have a dataset with a large number of features, you may end up overfitting your model or encounter computational bottlenecks in performance depending on the size of your dataset. In addition, there are other features not in this dataset that could have improved our model, such as athletic performance in non-Olympic venues, best score, years in sport, etc. </p>
+        <p>There are also other options for modeling this data that may be more effective, such as support vector machines or neural networks. Finally, with historic datasets like these, there’s likely to be missing values or errors resulting from disputing views, so keep that in mind as you draw conclusions from this and similar datasets.</p>
+      </div>
+    </div>
+</div> <!-- /main area --> 
 
 
 
