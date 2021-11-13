@@ -39,6 +39,12 @@ font-Size: 24pt;
   .jumbotron p, .jumbotron h1 {
     color: white;
   }
+  .jumbotron p {
+    text-shadow: rgba(0, 0, 0, 1) 0px 0px 11px;
+    background: rgb(0,0,0);
+    background: linear-gradient(4deg, rgba(0,0,0,0.7738270308123249) 14%, rgba(0,0,0,0) 76%);
+    padding: 0.5em;
+  }
   .jumbotron h1{
     text-transform: uppercase;
     font-weight: 600;
