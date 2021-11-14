@@ -126,7 +126,7 @@
                  'Sport', 'Event', 'Medal'], dtype='object')</code></pre>
         <p>Using dropna method we clear all rows with no data in features columns for good measure:</p>
         <pre><code class=language-python>athletes_data_nona = athletes_data.dropna(subset=['Age', 'Height', 'Weight', 'Sex'])</code></pre>
-        <p>In addition to that we decided to drop more data that had no a lot of entries to affect dataset using groupby method combined with lamda function</p>
+        <p>In addition to that we decided to drop more data that had not a lot of entries to affect dataset using groupby method combined with lambda function</p>
         <pre><code class=language-python>
           athletes_data_nona.groupby('Games').filter(lambda x : len(x)>70)
           athletes_sports.groupby('Sport').filter(lambda x : len(x)>100)</code></pre>
@@ -184,7 +184,7 @@
       <div class="media-left"><div class="circle"></div></div>
       <div class="media-body">
         <h2 class=media-heading>Data Exploration</h2>
-        <p>We sorted all athletes who ever an won Olympic medal, calculated average weight and height of these athletes and put it on the map. The additional layer shows us basic information about each country's performance in the Olympic Games. </p>
+        <p>We sorted all athletes who ever won an Olympic medal, calculated average weight and height of these athletes and put it on the map. The additional layer shows us basic information about each country's performance in the Olympic Games. </p>
         </div>
       </div>
       <!-- MAP -->
@@ -393,8 +393,8 @@
         <h4>Model Choice - Balanced Random Forest Classifier:</h4>
         <p>We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.</p>
         <p>Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively.</p>
-        <p>Gymnastics Athletes Balanced Accuracy Score: 83%</p>
-        <p>Machine Learning Recall on Gymnastic Athletes: 82%</p>
+        <p>Gymnastics Athletes Balanced Accuracy Score: 85%</p>
+        <p>Machine Learning Recall on Gymnastic Athletes: 84%</p>
         <pre><code class='language-py'>
         In:  # Resample the training data with the BalancedRandomForestClassifier
               forest = BalancedRandomForestClassifier(n_estimators = 100, random_state=1)
@@ -419,22 +419,22 @@
         OUT: 
               Confusion Matrix
               Predicted 0	Predicted 1
-              Actual 0	438	100
-              Actual 1	5	26
+              Actual 0	266	53
+              Actual 1	3	21
               ---------------------------
-              Accuracy Score : 0.8264180357356997
+              Accuracy Score : 0.8544278996865204
               ---------------------------
               Classification Report
                                 pre       rec       spe        f1       geo       iba       sup
-
-                        0       0.99      0.81      0.84      0.89      0.83      0.68       538
-                        1       0.21      0.84      0.81      0.33      0.83      0.68        31
-
-              avg / total       0.95      0.82      0.84      0.86      0.83      0.68       569
+              
+                        0       0.99      0.83      0.88      0.90      0.85      0.73       319
+                        1       0.28      0.88      0.83      0.43      0.85      0.73        24
+              
+              avg / total       0.94      0.84      0.87      0.87      0.85      0.73       343
         </code></pre>
         <h4>Results:</h4>
-        <p>Based on the recall score, our model can correctly predict if an Olympic gymnast will receive a medal 82% of the time.</p>
-        <p>With an 83% balanced accuracy score, we can conclude that on Olympic gymnast's physical features are correlated with whether or not they will receive a medal.</p>
+        <p>Based on the recall score, our model can correctly predict if an Olympic gymnast will receive a medal 84% of the time.</p>
+        <p>With an 85% balanced accuracy score, we can conclude that on Olympic gymnast's physical features are correlated with whether or not they will receive a medal.</p>
       </div>
     </div>  
     <div class="media">
