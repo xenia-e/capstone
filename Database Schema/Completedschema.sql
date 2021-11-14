@@ -46,7 +46,10 @@ SELECT a.ID,
 	   a.Win,
 	   a.BMI,
 	   a.Team_wins,
-	   a.Win_per_member  
+	   a.Win_per_member,
+	   g.year,
+	   g.season,
+	   g.city
 INTO final_olympics
 FROM athletes_medals as a
 INNER JOIN games as g 
