@@ -4,11 +4,14 @@
 
 ### Index
 - [Overview of Analysis](#overview-of-the-analysis)
-  - [Presentation](#presentation)
+  - [Presentation](#our-presenation)
 - [Database Outline](#database-outline)
 - [Machine Learning Model](#machine-learning-model)
+  - [Data Preprocessing](#description-of-data-preprocessing)
+  - [Model Choice](#model-choice)
+  - [Model Results](#model-results)
 - [Dashboard](#dashboard)
-  - [Tableau](#The-graphs-and-dashboard-were-created-in)
+  - [Tableau Public](https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes)
   - [Interactive element outline](#interactive-element-outline)
 - [Tools](#tools) 
   
@@ -33,7 +36,8 @@ To accomplish the goals of this project, the Nan team has placed a communication
 
 # **Overview of the analysis**
 
-### [Presentation Slides](https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325)
+### Our Presenation:
+[Presentation Slides](https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325)
 &ensp;
 
 ### **Selected topic**:
@@ -62,25 +66,59 @@ Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resou
 
 &ensp;
 
+
 # Machine Learning Model:
 
 Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
 
-#### Pre-Processing: 
+#### Description of data preprocessing  
 * Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics. 
 * Binned countries with less than 100 entries to "Other" category
-* Dropped Name, Team, Sport, Event and Medal columns as these are not needed for our model 
-* Encoded Sex, NOC and Games as these are object data 
+* Dropped Name, Team, Sport, Event, Games and Medal columns as these are not needed for our model 
+* Converted height and weight from object data to numeric data
+* Encoded Sex and NOC as these are object data 
 
-#### Feature Selection:
-* X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member
+#### Description of feature engineering and the feature selection, including their decision making process  
+* X: Sex, Age, Height, Weight, NOC, Year, BMI, Team Wins, Wins Per Member
 * y: Win (yes or no) 
-* We chose these because we are looking at physical features. We kept NOC (team) and games (year) because these also determine physical attributes. 
+* We chose these features because we are looking at the physical attributes of the athletes. We kept NOC (team) and year because these also determine physical attributes. We kept Team Wins and Wins Per Member as these assist with our machine learning model accuracy. 
+* We removed Height and Weight data as it is used as a calculation for BMI, but found that our model reduced -1% accuracy score, so we decided to leave the additional Height and Weight data as support for our machine learning model.
 
-#### Model Choice - Balanced Random Forest Classifier:
-* We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.  
+#### Description of how data was split into training and testing sets  
+* We used the following code to split into training and testing sets:
+* X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, stratify=y)
+
+### Model Choice: 
+#### Balanced Random Forest Classifier: 
+* We are using this model to classify whether or not an olympic athlete will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.  
 * Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively. 
-* Balanced Accuracy Score: 85%  
+
+#### Description of how the model has been trained so far 
+The model was trained to take in athlete physical attribute data and identify whether or not an athlete will receive a medal based on their physical attributes. To train the model, we took the following steps:
+1. Split the preprocessed data into a training and testing dataset
+2. Create a StandardScaler instances
+3. Fit the StandardScaler
+4. Scale the data
+5. Resample the training data with the BalancedRandomForestClassifier
+6. Calculate the balanced accuracy score
+
+We took additional steps to review how well the model performed:
+1. Display the confusion matrix
+2. Display the imbalanced classification report
+3. List the features sorted in descending order by feature importance
+
+#### Additional training that will take place:
+* We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history.
+
+#### Accuracy Score Results: We took the top 3 sports with greatest participation records:
+1. Gymnastics Athletes Balanced Accuracy Score: 85% 
+2. Swimming Balanced Accuracy Score: 85%
+3. Athletics Balanced Accuracy Score: 71%  - Note ML accuracy drops because there is greater variance in height and weight due to the variety of events in athletics compared to gymnastics and swimming.s
+
+#### Model Results: 
+* Based on the recall score, our model can correctly predict if an Olympic gymnast will receive a medal 84% of the time.
+* With an 85% balanced accuracy score, we can conclude that on Olympic gymnast's physical features are correlated with whether or not they will receive a medal.
+
 
 &ensp;
 
