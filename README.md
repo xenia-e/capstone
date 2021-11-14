@@ -1,131 +1,119 @@
-Soco Hernandez-Serrano 
+
+
 # **Team NaN: Olympic Athletes**
 
-# **Presentation**
+### Index
+- [Overview of Analysis](#overview-of-the-analysis)
+  - [Presentation](#presentation)
+- [Database Outline](#database-outline)
+- [Machine Learning Model](#machine-learning-model)
+- [Dashboard](#dashboard)
+  - [Tableau](#The-graphs-and-dashboard-were-created-in)
+  - [Interactive element outline](#interactive-element-outline)
+- [Tools](#tools) 
+  
+&ensp;
 
-## Overview of the analysis:
+### Team roles:
+![Team roles](https://github.com/xenia-e/capstone/blob/main/Report_images/Team_roles_w2.png)
+&ensp;
 
- - **Selected topic**: Olympic Athletes
+### Communication protocol:
+
+To accomplish the goals of this project, the Nan team has placed a communication protocol to promote effective communication within the team as follows:
+- **Rapid communication channel**: The first step of communication is to a Slack a message for the team members. Through this group, we have daily check-ins and we follow up questions or emergency comments regarding the progress of the project. 
+
+- **Zoom meetings**: We host multiple team meetings each week and discuss progress and the requirements for each role. 
+
+- **Team meeting notes**: We decided to record the team meeting highlights and next steps to stay on the same understanding of the project’s progress. 
+
+- **Github**: Our team uses Git as the platform to record the individual and team progress on the project. 
+
+&ensp;
+
+# **Overview of the analysis**
+
+### [Presentation Slides](https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325)
+&ensp;
+
+### **Selected topic**:
+
+Olympic Athletes
+
+## **Questions we hopes to answer with the data**: 
+
+Can we use predict an athlete’s chances of winning a medal based on their physical features? We hope to further our analysis and find an interesting correlations between the athlete's physical profile and the country's performance history. 
  
- - **Reason they selected the topic**: Through this analysis the team seeks to determine if it is possible to predict an athlete performance based on public data. 
- 
- - **Description of the source of data**: The data was source from Kaggle from an articule of Olympic Games that duelves on data from 1986 - 2021. The selected tables have data with more than 1,000 data points. 
+### **Reason we selected the topic**: 
 
- We are starting the project with four tables: 
- 
- [Athletes](https://github.com/xenia-e/capstone/blob/SocoH/olympic_athletes.csv)
+Data is an important part of the sports industry. Not only can data analytics help teams win games, but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on personal features.
 
- ![Athletes](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/athletes_data.png)
+### **Description of the source of data**: 
 
- [Hosts](https://github.com/xenia-e/capstone/blob/SocoH/olympic_hosts.csv) 
+The data was sourced from Kaggle from an article on Olympic Games that delves on data from 120 years of olympic history. The selected tables have data with more than 1,000 data points. The selected two tables were cleaned up using Pandas (Jupyter Notebook) and were explored using PostgreSQL (PgAdmin). 
 
- ![Hosts](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/host_data.png)
+Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resources/Final_athlete_clean_data.csv) and [Games](https://github.com/xenia-e/capstone/blob/main/Resources/olypic_games_clean.csv)
 
- [Medals](https://github.com/xenia-e/capstone/blob/SocoH/olympic_medals.csv)
- 
- ![Medals](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/medals_data.png)
+&ensp;
 
- [Results](https://github.com/xenia-e/capstone/blob/SocoH/olympic_results.csv)
- 
- ![Results](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/results_data.png)
- 
- 
- To find our datasets the team checked different sources related to the Olympic Athletes Analysis, fo example:
-- Kaggle
-    - https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv
-    - https://www.kaggle.com/samruddhim/olympics-althlete-events-analysis?select=athlete_events.csv
-    - https://www.kaggle.com/piterfm/olympic-games-medals-19862018
-    - https://www.kaggle.com/gregorut/videogamesales?select=vgsales.csv
-    - https://www.kaggle.com/harti28/independence-and-interdependence-in-sports
-    - https://www.kaggle.com/gpreda/tokyo-olympics-2020-tweets
-    - https://www.kaggle.com/stpeteishii/covid19-cases-in-tokyo-2020-olympics
-    - https://www.kaggle.com/ankitkalauni/tokyo-olympic-2021-clean-eda/notebook
+# Database outline 
 
-- International Olympic Committee - Olympic World Library 
-    - https://olympics.com/ioc/documents/olympic-games
-    - https://library.olympics.com/Default/accueil.aspx
+![Insert schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/ERD.png)
 
-- Data world 
-    - https://data.world/datasets/olympics
-    - https://data.world/ian/olympic-medals-host-cities
-    - https://data.world/sports/olympics
-    - https://data.world/sports/women-in-the-olympic-games
+&ensp;
 
- - **Questions the team hopes to answer with the data**:  The initial question the team has is "What goes into making the best Olympic athletes", we hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history.  
+# Machine Learning Model:
 
- - **Team role for the Asigment #1**:
+Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
 
- 1. Square: The team member in the square role will be responsible for setting up the repository. This includes naming the repository and adding team members.
+#### Pre-Processing: 
+* Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics. 
+* Binned countries with less than 100 entries to "Other" category
+* Dropped Name, Team, Sport, Event and Medal columns as these are not needed for our model 
+* Encoded Sex, NOC and Games as these are object data 
 
- 2. Triangle: The team member in the triangle role is responsible for creating a simple machine learning model. 
+#### Feature Selection:
+* X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member
+* y: Win (yes or no) 
+* We chose these because we are looking at physical features. We kept NOC (team) and games (year) because these also determine physical attributes. 
 
- 3. Circle: The team member in the circle role is in charge of the mockup database. This means you're using a SQL-based database, including an ERD of the database and a document pointing out how it is integrated into your database and how it works with the code. 
+#### Model Choice - Balanced Random Forest Classifier:
+* We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.  
+* Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively. 
+* Balanced Accuracy Score: 85%  
 
- 4. X: The team member in the X role will focus on the technology side of the project. 
+&ensp;
 
-![Team roles](https://github.com/xenia-e/capstone/blob/readme_proposal/Report_images/Team_roles.png)
+# Dashboard
+In our dashboard we feature a detailed analysis of gold medal winning teams and the association to the team’s average BMI. 
 
-### Communication protocol
+From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare. 
 
-To accomplish the goals of this project, the Nan team has placed a communication protocol to promote effective communication within the team. As follow:
-- **Rapid communication channel**: The first step was to create a Slack group for the team members. Through this  group we have daily check-ins and we follow up questions or emergency comments regarding the progress of the project. 
+- The graphs and dashboard were created in [Tableau Public](https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes)  
 
-- **Zoom meetings**: The team has agreed to meet based on the availability and the required tasks for each role. Currently we have met five times to discuss the requirements of Segment #1. 
+- [Draft of the interactive map](https://xenia-e.github.io/capstone/) was created using **javascript** and **Leaflet** library. The original dataset was preprocessed and converted into GeoJSON files. 
+A map presenting visualizations of countries Olympic achievements and outline of typical Olympic Medal Winner in certain country.  
+&ensp;  
 
-- **Team meeting notes**: We decided to record the team meeting highlights and next steps to stay on the same understanding of the project’ progress. 
+## Interactive element outline
+In the next draft of our dashboard we aim to include the following **interactive element**: 
 
-- **Github**: The team has agreed to use Git as the platform to record the individual and team progress on the project. 
+On the logo of the Olympic Games we will place an *input field* on each Olympic circle. 
 
-# Database provisional outline 
+One *input field* that asks for **country of birth** <br>
+One *input field* that asks for your **gender**<br>
+One *input field* that asks for your **age**<br>
+One *input field* that ask for your **weight**<br>
+One *input field* that asks for your **height**<br>
+
+After entering the last input field the page automatically refreshes and produces a prediction on 
+which sport you must practice should you choose to win a gold medal in the next Olympic Games.  
+&ensp;
 
 
-![Insert provisional schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/Provisional_ERD.png)
+## Tools
+To create the final dashboard we will work with JavaScript, CSS and Bootstrap.  
+&ensp;
 
 
-
-
-CoriS
-# Machine Learning Model Outline
-
-We have built a basic machine learning model to take in sample data and test accuracy. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/Olympics_Machine_Learning_Model.ipynb).
-
-## Process:
-1. Ask the question 
-2. Description of column types
-3. Import Libraries 
-4. Load the data from the database 
-5. Look at shape and summarize dataset 
-6. Look at visualizations to explore the data
-7. Pre-process the Data for our model
-8. Encode Object Data 
-9. Select features and targets
-10. Scale the data
-11. Split test and train 
-12. Build our model (Random Forest Classifer and Neural Network)
-
-
-### Questions:
-What does the machine learning model look like? Supervised? Unsupervised? Is the data structred? How will you process the data for the machine learning model? What statistical test will you do? Roadmap for intentions. 
-
-#### Which model did you choose and why? 
-We need to visualize our data to explore it and determine the best statistical test and training model to use. 
-
-We will be using a supervised machine learning model because we already know what data we are trying to predict.
-
-If the data is structured tabular data, we would like to use a Random Forest Classifier. This is an ensemble learning method for classification and regression that take in many small decision trees for training for a more accurate output.
-
-We would also like to use a neural network and compare the accuracy and results. 
-
-#### How are you training your model? 
-Statistical Test: TBD
-X: Input Data from our DataFrame
-Y: Medals
-
-#### What is the model's accuracy? 
-TBD
-
-#### How does this model work? 
-TBD
-
-# capstone
-final project of group 4 - to change this
+[Back to Index](#index)
