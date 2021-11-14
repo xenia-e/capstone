@@ -17,8 +17,6 @@ To accomplish the goals of this project, the Nan team has placed a communication
 - **Github**: Our team uses Git as the platform to record the individual and team progress on the project. 
 
 
-### Presentation: [Google Slides](https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325)
-
 # **Overview of the analysis**
 
 ### **Selected topic**:
@@ -78,23 +76,6 @@ https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_1636316928
 
 [Draft of the interactive map](https://xenia-e.github.io/capstone/) was created using **javascript** and **Leaflet** library. The original dataset was preprocessed and converted into GeoJSON files. 
 A map presenting visualizations of countries Olympic achievements and outline of typical Olympic Medal Winner in certain country. 
-
-## Interactive element outline
-In the next draft of our dashboard we aim to include the following **interactive element**: 
-
-On the logo of the Olympic Games we will place an *input field* on each Olympic circle. 
-
-One *input field* that asks for **country of birth** <br>
-One *input field* that asks for your **gender**<br>
-One *input field* that asks for your **age**<br>
-One *input field* that ask for your **weight**<br>
-One *input field* that asks for your **height**<br>
-
-After entering the last input field the page automatically refreshes and produces a prediction on 
-which sport you must practice should you choose to win a gold medal in the next Olympic Games. 
-
-## Tools
-To create the final dashboard we will work with JavaScript, CSS and Bootstrap. 
 
 ## Interactive element outline
 In the next draft of our dashboard we aim to include the following **interactive element**: 
