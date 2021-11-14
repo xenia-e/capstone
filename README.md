@@ -283,30 +283,16 @@ In our dashboard we feature a detailed analysis of gold medal winning teams and 
 
 From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare. 
 
-- The graphs and dashboard were created in [Tableau Public](https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes)  
+- The graphs and dashboard were created in [Tableau Public](https://public.tableau.com/views/Olympians_16363169289870/TheOlympicGoldStandard)  
 
 - [Draft of the interactive map](https://xenia-e.github.io/capstone/) was created using **javascript** and **Leaflet** library. The original dataset was preprocessed and converted into GeoJSON files. 
 A map presenting visualizations of countries Olympic achievements and outline of typical Olympic Medal Winner in certain country.  
 &ensp;  
 
-## Interactive element outline
-In the next draft of our dashboard we aim to include the following **interactive element**: 
-
-On the logo of the Olympic Games we will place an *input field* on each Olympic circle. 
-
-One *input field* that asks for **country of birth** <br>
-One *input field* that asks for your **gender**<br>
-One *input field* that asks for your **age**<br>
-One *input field* that ask for your **weight**<br>
-One *input field* that asks for your **height**<br>
-
-After entering the last input field the page automatically refreshes and produces a prediction on 
-which sport you must practice should you choose to win a gold medal in the next Olympic Games.  
-&ensp;
-
+- The dashboard also includes information on Machine Learning training and testing models used in our project including accuracy scores, f1 score and feature importance. 
 
 ## Tools
-To create the final dashboard we will work with JavaScript, CSS and Bootstrap.  
+To create the final dashboard we will work with JavaScript, Leaflet, CSS and Bootstrap.  
 &ensp;
 
 
