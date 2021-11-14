@@ -1,9 +1,22 @@
-LC 
+
+
 # **Team NaN: Olympic Athletes**
 
+### Index
+- [Overview of Analysis](#overview-of-the-analysis)
+  - [Presentation](#presentation)
+- [Database Outline](#database-outline)
+- [Machine Learning Model](#machine-learning-model)
+- [Dashboard](#dashboard)
+  - [Tableau](#The-graphs-and-dashboard-were-created-in)
+  - [Interactive element outline](#interactive-element-outline)
+- [Tools](#tools) 
+  
+&ensp;
 
 ### Team roles:
 ![Team roles](https://github.com/xenia-e/capstone/blob/main/Report_images/Team_roles_w2.png)
+&ensp;
 
 ### Communication protocol:
 
@@ -16,24 +29,24 @@ To accomplish the goals of this project, the Nan team has placed a communication
 
 - **Github**: Our team uses Git as the platform to record the individual and team progress on the project. 
 
-
-### Presentation: [Google Slides](https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325)
+&ensp;
 
 # **Overview of the analysis**
+
+### [Presentation Slides](https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325)
+&ensp;
 
 ### **Selected topic**:
 
 Olympic Athletes
 
-## **Questions the team hopes to answer with the data**: 
+## **Questions we hopes to answer with the data**: 
 
-"Can we use predict an athlete’s chances of winning a medal based on their physical features?" We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history. 
+Can we use predict an athlete’s chances of winning a medal based on their physical features? We hope to further our analysis and find an interesting correlations between the athlete's physical profile and the country's performance history. 
  
-
 ### **Reason we selected the topic**: 
 
 Data is an important part of the sports industry. Not only can data analytics help teams win games, but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on personal features.
- 
 
 ### **Description of the source of data**: 
 
@@ -41,11 +54,13 @@ The data was sourced from Kaggle from an article on Olympic Games that delves on
 
 Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resources/Final_athlete_clean_data.csv) and [Games](https://github.com/xenia-e/capstone/blob/main/Resources/olypic_games_clean.csv)
 
+&ensp;
+
 # Database outline 
 
 ![Insert schema here](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/ERD.png)
 
-
+&ensp;
 
 # Machine Learning Model:
 
@@ -65,36 +80,20 @@ Using data from the Olympic games from 1900 to 2016, we are using a Random Fores
 #### Model Choice - Balanced Random Forest Classifier:
 * We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.  
 * Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively. 
-* Balanced Accuracy Score: 85%
+* Balanced Accuracy Score: 85%  
 
+&ensp;
 
 # Dashboard
-* In our dashboard we feature a detailed analysis of gold medal winning teams and the association to the team’s average BMI. 
+In our dashboard we feature a detailed analysis of gold medal winning teams and the association to the team’s average BMI. 
 
-* From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare. 
+From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare. 
 
-The graphs and dashboard were created in [Tableau Public.](
-https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes)
+- The graphs and dashboard were created in [Tableau Public](https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1?publish=yes)  
 
-[Draft of the interactive map](https://xenia-e.github.io/capstone/) was created using **javascript** and **Leaflet** library. The original dataset was preprocessed and converted into GeoJSON files. 
-A map presenting visualizations of countries Olympic achievements and outline of typical Olympic Medal Winner in certain country. 
-
-## Interactive element outline
-In the next draft of our dashboard we aim to include the following **interactive element**: 
-
-On the logo of the Olympic Games we will place an *input field* on each Olympic circle. 
-
-One *input field* that asks for **country of birth** <br>
-One *input field* that asks for your **gender**<br>
-One *input field* that asks for your **age**<br>
-One *input field* that ask for your **weight**<br>
-One *input field* that asks for your **height**<br>
-
-After entering the last input field the page automatically refreshes and produces a prediction on 
-which sport you must practice should you choose to win a gold medal in the next Olympic Games. 
-
-## Tools
-To create the final dashboard we will work with JavaScript, CSS and Bootstrap. 
+- [Draft of the interactive map](https://xenia-e.github.io/capstone/) was created using **javascript** and **Leaflet** library. The original dataset was preprocessed and converted into GeoJSON files. 
+A map presenting visualizations of countries Olympic achievements and outline of typical Olympic Medal Winner in certain country.  
+&ensp;  
 
 ## Interactive element outline
 In the next draft of our dashboard we aim to include the following **interactive element**: 
@@ -108,7 +107,13 @@ One *input field* that ask for your **weight**<br>
 One *input field* that asks for your **height**<br>
 
 After entering the last input field the page automatically refreshes and produces a prediction on 
-which sport you must practice should you choose to win a gold medal in the next Olympic Games. 
+which sport you must practice should you choose to win a gold medal in the next Olympic Games.  
+&ensp;
+
 
 ## Tools
-To create the final dashboard we will work with JavaScript, CSS and Bootstrap. 
+To create the final dashboard we will work with JavaScript, CSS and Bootstrap.  
+&ensp;
+
+
+[Back to Index](#index)
