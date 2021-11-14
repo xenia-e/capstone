@@ -259,10 +259,14 @@ We took additional steps to review how well the model performed:
 2. Display the imbalanced classification report
 3. List the features sorted in descending order by feature importance
 
-#### Additional training that will take place:
+#### Additional training that has taken place:
 * We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history.
+* Attempted to add 'Year', 'City', and 'Season' from games table, but the added data reduced the accuracy score from 85% to 76%. 
+* Attempted to add 'Year' and bin to reduce number of unique values, but struggled with data type changes in the model. 
+* Attempted to filter on Gender, but the added filtering reduced the accuracy score from 85% to 70%. 
+* Filtered by sport to view machine model learning accuracy for different sports. See results below.
 
-#### Accuracy Score Results: We took the top 3 sports with greatest participation records:
+#### Accuracy Score Results on Athletes_Medals data: We took the top 3 sports with greatest participation records:
 1. Gymnastics Athletes Balanced Accuracy Score: 85% 
 2. Swimming Balanced Accuracy Score: 85%
 3. Athletics Balanced Accuracy Score: 71%  - Note ML accuracy drops because there is greater variance in height and weight due to the variety of events in athletics compared to gymnastics and swimming.s
