@@ -1,0 +1,78 @@
+/* global styles */
+h1, header, .navbar-brand{
+font-family: 'Roboto', Sans-Serif;
+font-Size: 24pt;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lato', Sans-Serif;
+    Font-Size: 11pt;
+  }
+  footer{
+    margin-top:3em;
+    text-align: left;
+  }
+  .circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-color: rgb(133, 139, 151);
+    border-width: 5px;
+    border-style: solid;
+  }
+    
+/* NAVBAR STYLES */
+.navbar-brand{
+  color: white;
+  font-size: 90%;
+}
+
+/* Hero styles */
+  .jumbotron {
+    background: url("../images/olympic_banner_1920.jpg") no-repeat center / cover;
+    padding: 10em 0;
+  }
+  .jumbotron p, .jumbotron h1 {
+    color: white;
+  }
+  .jumbotron p {
+    text-shadow: rgba(0, 0, 0, 1) 0px 0px 11px;
+    background: rgb(0,0,0);
+    background: linear-gradient(4deg, rgba(0,0,0,0.7738270308123249) 14%, rgba(0,0,0,0) 76%);
+    padding: 0.5em;
+  }
+  .jumbotron h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 42pt;
+    text-shadow: rgba(21, 34, 56, 0.8) 10px 20px 9px;
+  }
+
+/* MAP styles */
+#mapid{
+  height: 300px !important;
+}
+
+
+    .item {
+        break-inside: avoid-column;   
+    }
+    .item:nth-of-type(2){
+        break-after:column;
+        display:block;
+    }
+
+  
+  /* Style the footer */
+  footer {
+    bottom:0;
+    background-color: rgb(52, 61, 82);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  

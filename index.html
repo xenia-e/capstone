@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaN Group</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Poppins:300|Roboto:300" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- code highlight library -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script> 
+  <script>hljs.highlightAll();</script>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+  <!-- Custom css -->
+    <link rel="stylesheet" href="./NaNSite/static/css/style.css">
+    <!-- d3 JavaScript -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div id="navbar" class="navbar-collapse collapse">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <strong class="navbar-brand">NaN</strong>
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Project Overview <span class="sr-only">(current)</span></a></li>
+        <li><a href="https://github.com/xenia-e/capstone">NaN Github</a></li>
+        <li><a href="https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/Dashboard1">Tableau dashbord</a></li>
+        <li><a href="https://docs.google.com/presentation/d/1U52iM4x94LprbDG-jespGqqpqwhPP5E583R7NAPjWAU/edit#slide=id.gf795edcdee_0_325">Presentation Slides</a></li>
+      </ul>
+ 
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- Hero image area -->
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-md-offset-6">
+        <h1>Can we predict a win?</h1>
+        <p> Data is an important part of the sports industry. Not only can data analytics help teams win games, 
+        but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. 
+        Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on personal features.</p> 
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Main area -->
+<div class="container">
+    <div class="media well well-lg">
+      <blockquote>"Can we use predict an athlete’s chances of winning a medal based on their physical features?" We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history</blockquote>
+    </div> 
+    <div class="media">
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h4 class="media-headding">Reason we selected the topic:</h4>
+        <p>Data is an important part of the sports industry. Not only can data analytics help teams win games, but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on on pertinent features, such as age, height, and nationality, and previously won medals using a Random Forest Classifier model. </p>
+        </div>
+    </div>
+    <div class="media">
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h4 class="media-headding">Description of the source of data:</h4>
+        <p>The data was sourced from Kaggle from an article on Olympic Games that delves on data from 120 years of olympic history. The selected tables have data with more than 1,000 data points. The selected two tables were cleaned up using Pandas (Jupyter Notebook) and were explored using PostgreSQL (PgAdmin).</p>
+        <p>We used additional data with Olympic countries' Capitals longitude and latitude for creating an interactive map.</p>
+        <p>Original dataset contains data spanning from Athens 1896 to Rio 2016. Features listed for each athlete are:
+          <ol>
+            <li>ID (unique identifier for each athlete to account for duplicate names)</li>
+            <li>Name</li>
+            <li>Sex (F for female, M for male)</li>
+            <li>Age</li>
+            <li>Height (in cm)</li>
+            <li>Weight (in kg)</li>
+            <li>Team</li>
+            <li>NOC — three-letter code for each country established by the National Olympics Committee (e.g., USA: United States of America)</li>
+            <li>Games (e.g., 2008 Summer, 2010 Winter)</li>
+            <li>Sport (e.g., Basketball)</li>
+            <li>Event (e.g., Basketball Men's Basketball)</li>
+            <li>Medal (Gold, Silver, Bronze, NA)</li>
+          </ol> </p>
+        <p>Additional dataset contains listed data for each of the Olympic games:</p>
+        <ul>
+          <li>Games (e.g., 2008 Summer, 2010 Winter)</li>
+          <li>Year</li>
+          <li>Season (Summer or Winter)</li>
+          <li>City (e.g., Tokyo)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="media"> 
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h2 class=media-heading>Initial Data Exploration and ETL process</h2>
+        <p>First we load our dataset using pandas </p>
+        <pre><code class="language-py">
+          import pandas as pd
+          athletes_data = pd.read_csv(f'{file_dir}/Raw_Data/athletes_data.csv', low_memory=False)
+          print('Datasset shape:', athletes_data.shape)
+          print('Dataset columns:', athletes_data.columns)
+        </code></pre>
+        <pre><code class="language-plaintext">
+          Datasset shape: (271116, 12)
+          Dataset columns: Index(['ID', 'Name', 'Sex', 'Age', 'Height', 'Weight', 'Team', 'NOC', 'Games',
+                 'Sport', 'Event', 'Medal'], dtype='object')</code></pre>
+        <p>Using dropna method we clear all rows with no data in features columns for good measure:</p>
+        <pre><code class=language-python>athletes_data_nona = athletes_data.dropna(subset=['Age', 'Height', 'Weight', 'Sex'])</code></pre>
+        <p>In addition to that we decided to drop more data that had not a lot of entries to affect dataset using groupby method combined with lambda function</p>
+        <pre><code class=language-python>
+          athletes_data_nona.groupby('Games').filter(lambda x : len(x)>70)
+          athletes_sports.groupby('Sport').filter(lambda x : len(x)>100)</code></pre>
+
+        <h4>Preprocessing data for the DEA & ML</h4>
+        <p>Adding new column with corresponding to y values of future machine learning model with 0 for all NA values in and 1 for any other than NA value in 'Medal' column</p>
+        <pre><code class=language-python>
+        medals = athletes_data['Medal'].to_list()
+        win=[]
+          for medal in medals:
+            if pd.isna(medal):
+              win.append(0)
+            else:
+              win.append(1)
+
+            athletes_data['Win'] = win
+            athletes_data
+        </code></pre>
+        <p>Adding body mass index for the DEA</p>
+        <pre><code class=language-python>
+        athletes_data['BMI'] = athletes_data.apply(lambda row: row.Weight/(row.Height*row.Height/10000) , axis=1)
+      </code></pre>
+      <p>Team desided to use team win counts and medals per team athlete as additional data entry</p>
+      <pre><code class=language-python>
+        acthletes_medals = athletes_data.groupby("NOC").Win.sum()
+        athletes_medals_df = pd.DataFrame(acthletes_medals) #create df
+        athletes_medals_df.reset_index(inplace=True) #reset index
+        athletes_medals_df.rename(columns = {'Win':'Team_wins'}, inplace = True)
+        Team_counts = athletes_data['NOC'].value_counts()
+        team_counts_df = pd.DataFrame(Team_counts)
+        team_counts_df.reset_index(inplace=True)
+        team_counts_df.rename(columns = {'NOC': 'Total_team_members', 'index':'NOC'}, inplace = True)
+        medals_merged = pd.merge(team_counts_df, athletes_medals_df, on='NOC', how='inner')
+        # calculate wins per team member
+        medals_merged['Win_per_member'] = medals_merged.apply(lambda row: row.Team_wins/row.Total_team_members , axis=1)
+        # drop total team members
+        medals_merged = medals_merged.drop(['Total_team_members'], axis=1)
+        athletes_data_merged = pd.merge(athletes_data, medals_merged, on='NOC', how='inner')
+        athletes_data_merged['Medal'] = athletes_data_merged['Medal'].fillna('No Medal') # fill NaNs in ' Medal' with ' No Medal
+        athletes_data_merged = athletes_data_merged.sort_values('ID')
+
+        athletes_data_merged.head()
+        </code></pre>
+        <p>The final athletes data table
+          <img src="./NaNSite/static/images/final_data.png" style='width: 100%;' alt="">
+        </p>
+        <p>Finally we saved file in csv format to import it into SQL database later</p>
+        <pre><code class=language-python>athletes_clean_df.to_csv('../Resources/athletes_data_clean.csv', index=False)</code></pre>
+
+      </div>
+    </div>
+
+<!--  analysis -->
+    <div class="media"> 
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h2 class=media-heading>Data Exploration</h2>
+        <p>We sorted all athletes who ever won an Olympic medal, calculated average weight and height of these athletes and put it on the map. The additional layer shows us basic information about each country's performance in the Olympic Games. </p>
+        </div>
+      </div>
+      <!-- MAP -->
+      <div class="container" >
+        <div id="mapid"> </div>
+      </div>
+      <div class="row" style="margin-bottom: 2.5em;"></div>
+
+      <!-- PLOTS -->
+      <div class="row">
+        <div class="col-md-7">
+          <div class='tableauPlaceholder' id='viz1636831161310' style='position: relative'>
+            <noscript>
+              <a href='#'>
+                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;BMI&#47;1_rss.png' style='border: none' /></a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Olympians_16363169289870&#47;BMI' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;BMI&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=no' />
+            </object>
+          </div>
+          <script type='text/javascript'>
+            var divElement = document.getElementById('viz1636831161310');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='100%';
+            vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+            var scriptElement = document.createElement('script'); 
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+
+        </div>
+        <div class="col-md-5">
+          <h4>Average BMI in Top Olympic Sports</h4>
+          <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <h4>Gold Winners in Gymnastics</h4>
+          <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p> 
+          </div>
+        <div class="col-md-7">
+          <div class='tableauPlaceholder' id='viz1636831329137' style='position: relative'><noscript><a href='#'><img alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;Top5CountriesbyGoldinGymnastics&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Olympians_16363169289870&#47;Top5CountriesbyGoldinGymnastics' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;Top5CountriesbyGoldinGymnastics&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+            </object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1636831329137'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-md-7">
+          <div class='tableauPlaceholder' id='viz1636832913604' style='position: relative'><noscript><a href='#'><img alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;GymnasticsTop10WinnersBMI&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Olympians_16363169289870&#47;GymnasticsTop10WinnersBMI' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;GymnasticsTop10WinnersBMI&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+            </object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1636832913604'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        </div>
+        <div class="col-md-5">
+            <h4>Gymnastics Top 5 Gold Winners BMI</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+      </div> 
+      <div class="row"></div>
+    
+    <!-- ML -->
+    <div class="media">
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h2>Machine Learning Model:</h2>
+        <p>Physical attributes are a primary factor for why an athlete will choose to participate in a specific sport. Based on the minute differences between Olympic athlete physical features, can we determine whether or not an athlete will receive an Olympic Medal? Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes.</p>
+        <p>Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics.</p>
+        <h4>Importing Data from AWS Database:</h4>
+        <pre><code class='language-py'>
+          # Connecting to AWS
+          %reload_ext sql
+          %sql postgresql://postgres:{aws_key}@olympicmedals.c8zltavxfwqy.us-east-2.rds.amazonaws.com:5432/postgres
+          
+          # Load data from AWS
+          output = %sql SELECT * FROM athletes_medals;
+          df = pd.DataFrame(output)
+          df
+          </code></pre>
+        <h4>Data Pre-Processing:</h4>
+        <ul>
+          <li>Filtered our data to only look at the sport of gymnastics.</li>
+          <pre><code class='language-py'>
+            # Filter to one sport
+            df = df[df['Sport']=='Gymnastics']
+            </code></pre>
+          <li>Binned countries with less than 100 entries to "Other" category</li>
+          <pre><code class='language-py'>
+            # Look at NOC Value Counts
+            noc_counts = df.NOC.value_counts()
+
+            # Visualize the NOC Value Counts
+            noc_counts.plot.density()
+
+            # Determine which values to replace if counts are less than 100
+            replace_noc = list(noc_counts[noc_counts < 100].index)
+
+            # Replace in dataframe
+            for noc in replace_noc:
+                df.NOC = df.NOC.replace(noc,"Other")
+                
+            # Check to make sure binning was successful
+            df.NOC.value_counts()
+            </code></pre>
+          <li>Dropped Name, Team, Sport, Event and Medal columns as these are not needed for our model</li>
+          <pre><code class='language-py'>
+            # Drop name, team, sport, event and medal from dataframe
+            df = df.drop(['Name', 'Team', 'Sport', 'Event', 'Medal'],axis=1)
+            </code></pre>
+          <li>Encoded Sex, NOC and Games as these are object data</li>
+          <pre><code class='language-py'>
+            # Generate our categorical variable lists
+            df_cat = ['Sex', 'NOC', 'Games']
+
+            # Create a OneHotEncoder instance
+            enc = OneHotEncoder(sparse=False)
+
+            # Fit and transform the OneHotEncoder using the categorical variable list
+            encode_df = pd.DataFrame(enc.fit_transform(df[df_cat]))
+            # Add the encoded variable names to the dataframe
+            encode_df.columns = enc.get_feature_names(df_cat)
+
+            # Merge one-hot encoded features and drop the originals
+            df = df.merge(encode_df, left_index=True, right_index=True).drop(columns=df_cat, axis=1)
+            </code></pre>
+        </ul>
+        <h4>Feature Selection:</h4>
+        <ul>
+          <li>X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member</li>
+          <li>y: Win (yes or no)</li>
+          <li>We chose these features because we are looking at the physical attributes of the athletes. We kept NOC (team) and year because these also determine physical attributes. We kept Team Wins and Wins Per Member as these assist with our machine learning model accuracy. </li>
+          <pre><code class='language-py'>
+            # Create features
+            X = df.drop(columns='Win')
+            # Create targets
+            y = df['Win']
+            </code></pre>
+        </ul>
+        <h4>Split the data:</h4>
+        <pre><code class='language-py'>
+          # Split the preprocessed data into a training and testing dataset
+          X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, stratify = y)
+          </code></pre>
+        <h4>Scale the data:</h4>
+        <pre><code class='language-py'>
+          # Create a StandardScaler instances
+          scaler = StandardScaler()
+
+          # Fit the StandardScaler
+          X_scaler = scaler.fit(X_train)
+
+          # Scale the data
+          X_train_scaled = X_scaler.transform(X_train)
+          X_test_scaled = X_scaler.transform(X_test)
+          </code></pre>
+        <h4>Model Choice - Balanced Random Forest Classifier:</h4>
+        <p>We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.</p>
+        <p>Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively.</p>
+        <p>Gymnastics Athletes Balanced Accuracy Score: 85%</p>
+        <p>Machine Learning Recall on Gymnastic Athletes: 84%</p>
+        <pre><code class='language-py'>
+        In:  # Resample the training data with the BalancedRandomForestClassifier
+              forest = BalancedRandomForestClassifier(n_estimators = 100, random_state=1)
+              forest = forest.fit(X_train, y_train)
+        
+              # Calculating the accuracy score
+              predictions = forest.predict(X_test)
+              acc_score = balanced_accuracy_score(y_test, predictions)
+              
+              # Calculating the confusion matrix
+              matrix = confusion_matrix(y_test, predictions)
+              cm_df = pd.DataFrame(matrix, index=["Actual 0", "Actual 1"], columns=["Predicted 0", "Predicted 1"])
+              
+              print("Confusion Matrix")
+              display(cm_df)
+              print("---------------------------")
+              print(f"Accuracy Score : {acc_score}")
+              print("---------------------------")
+              print("Classification Report")
+              print(classification_report_imbalanced(y_test, predictions))
+              
+        OUT: 
+              Confusion Matrix
+              Predicted 0	Predicted 1
+              Actual 0	266	53
+              Actual 1	3	21
+              ---------------------------
+              Accuracy Score : 0.8544278996865204
+              ---------------------------
+              Classification Report
+                                pre       rec       spe        f1       geo       iba       sup
+              
+                        0       0.99      0.83      0.88      0.90      0.85      0.73       319
+                        1       0.28      0.88      0.83      0.43      0.85      0.73        24
+              
+              avg / total       0.94      0.84      0.87      0.87      0.85      0.73       343
+        </code></pre>
+        <h4>Results:</h4>
+        <p>Based on the recall score, our model can correctly predict if an Olympic gymnast will receive a medal 84% of the time.</p>
+        <p>With an 85% balanced accuracy score, we can conclude that on Olympic gymnast's physical features are correlated with whether or not they will receive a medal.</p>
+      </div>
+    </div>  
+    <div class="media">
+      <div class="media-left"><div class="circle"></div></div>
+      <div class="media-body">
+        <h2>Conclusion</h2>
+        <p>While RFC can be a powerful tool for statistical modeling, they do have their drawbacks as any othe model. </p>
+        <p>If you have a dataset with a large number of features, you may end up overfitting your model or encounter computational bottlenecks in performance depending on the size of your dataset. In addition, there are other features not in this dataset that could have improved our model, such as athletic performance in non-Olympic venues, best score, years in sport, etc. </p>
+        <p>There are also other options for modeling this data that may be more effective, such as support vector machines or neural networks. Finally, with historic datasets like these, there’s likely to be missing values or errors resulting from disputing views, so keep that in mind as you draw conclusions from this and similar datasets.</p>
+      </div>
+    </div>
+</div> <!-- /main area --> 
+
+
+
+    
+</div>
+
+
+
+
+<footer>
+<p class="small">This presentation is an academic project and for educational purposes only. Opinions or points of view expressed in this presentation represent the view of the presenter, and does not necessarily represent the official position or policies of the International Olympic Committee. The illustrations appearing in this presentation are depicted for illustrative purposes only.</p>
+</footer>
+
+
+
+<!-- Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<!-- API key -->
+<script type="text/javascript" src="./NaNSite/static/js/config.js"></script>
+<!-- Our JavaScript -->
+<script type="text/javascript" src="./NaNSite/static/js/olympicMap.js"></script>
+
+</body>
+</html>
+
