@@ -57,10 +57,8 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-6 col-md-offset-6">
-        <h1>Can we predict a win?</h1>
-        <p> Data is an important part of the sports industry. Not only can data analytics help teams win games, 
-        but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. 
-        Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on personal features.</p> 
+        <h1>Can we predict whether or not an Olympic athlete will win a medal?</h1>
+        <p> </p> 
       </div>
     </div>
     
@@ -69,14 +67,19 @@
 
 <!-- Main area -->
 <div class="container">
+  <div>
+    <h4 style='line-height: 1.5em;'>Data is an important part of the sports industry. Not only can data analytics help teams win games, 
+      but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. 
+      Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on personal features.</h4>
+  </div>
     <div class="media well well-lg">
-      <blockquote>"Can we use predict an athlete’s chances of winning a medal based on their physical features?" We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history</blockquote>
+      <blockquote>Can we predict whether or not an Olympic athlete will win a medal based on their physical features? We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history</blockquote>
     </div> 
     <div class="media">
       <div class="media-left"><div class="circle"></div></div>
       <div class="media-body">
         <h4 class="media-headding">Reason we selected the topic:</h4>
-        <p>Data is an important part of the sports industry. Not only can data analytics help teams win games, but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on on pertinent features, such as age, height, and nationality, and previously won medals using a Random Forest Classifier model. </p>
+        <p>Data is an important part of the sports industry. Not only can data analytics help teams win games, but these statistics can also help improve player performance, prevent injuries and encourage fans to attend games. Through this analysis, our team seeks to determine if it is possible to predict an athlete's performance based on personal features. </p>
         </div>
     </div>
     <div class="media">
@@ -192,9 +195,39 @@
         <div id="mapid"> </div>
       </div>
       <div class="row" style="margin-bottom: 2.5em;"></div>
-
+      <di class="story"></di>
       <!-- PLOTS -->
-      <div class="row">
+      <div class="row story">
+        <div class="col-md-5">
+          <h3>Average Olympic Athlete BMI over the years</h3>
+          <p> An Olympian’s body shape and size directly relate to the sport in which he or she participates, and certain events demand extreme proportions to compete at the highest level. We aim to evaluate the significance of of a specific selection of phisical attributes: height and weight. For this reasone we decided to look into quotiont of weight devided by heiht in meters squared also known as Body Mass Index (BMI)   </p>
+          <p>The BMI line over the years in its beginning probably reflects what the perception of the athletic body, and the human body in general, was at the time. After the 1960’s when technology slowly starts impacting the sciences around sports we notice a slow but steady drop of the BMI. Athletes are now better equipped to efficiently train their bodies. Average BMI has remained in the same levels for the past 20 years.</p>
+        </div>
+        <div class="col-md-7">
+          <div class='tableauPlaceholder' id='viz1636942626616' style='position: relative'><noscript><a href='#'><img alt=' '
+            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;AverageAthleteBMIOvertheYears&#47;1_rss.png'
+            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='Olympians_16363169289870&#47;AverageAthleteBMIOvertheYears' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='no' />
+        <param name='static_image'
+          value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;AverageAthleteBMIOvertheYears&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='no' />
+        <param name='language' value='en-US' />
+      </object></div>
+    <script
+      type='text/javascript'>                    var divElement = document.getElementById('viz1636942626616'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        </div>
+
+      </div>
+      <div class="row story">
         <div class="col-md-7">
           <div class='tableauPlaceholder' id='viz1636831161310' style='position: relative'>
             <noscript>
@@ -213,7 +246,7 @@
               <param name='display_static_image' value='yes' />
               <param name='display_spinner' value='yes' />
               <param name='display_overlay' value='yes' />
-              <param name='display_count' value='yes' />
+              <param name='display_count' value='no' />
               <param name='language' value='en-US' />
               <param name='filter' value='publish=no' />
             </object>
@@ -230,18 +263,18 @@
 
         </div>
         <div class="col-md-5">
-          <h4>Average BMI in Top Olympic Sports</h4>
-          <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3>Average BMI in Top Olympic Sports</h3>
+          <p>As expected, BMI varies depending on the sport. On one end, one of the strength sports, we see Judo, Rowing, and Sailing with BMI over 23.0. On the other end, we find sports that require refined movement, flexibility, and stealth-like rhythmic such as gymnastics and synchronized swimming. Endurance sports tend to stand in the middle as some of them depend on strength and others on stamina. </p>
+          <p>Those athletes with extreme body size and shape are those whose heights and weights directly affect their performance. For instance, gymnasts require a very high strength-to-weight ratio, which is why they tend to be short and muscular, with no superfluous fat.</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row story">
         <div class="col-md-5">
-          <h4>Gold Winners in Gymnastics</h4>
-          <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p> 
+          <h3>Gold Winners in Gymnastics</h3>
+          <p>Countries with decades of tradition in Gymnastics like Japan, China, and Romania demonstrate how in this case the team and its culture have a greater impact on the result than physical attributes do. In the following graph, we will better understand the minute differences between these big teams, by looking at age and BMI average as well as Count of Wins for each country.</p> 
           </div>
         <div class="col-md-7">
-          <div class='tableauPlaceholder' id='viz1636831329137' style='position: relative'><noscript><a href='#'><img alt=' '
+          <div class='tableauPlaceholder' id='viz1636944126656' style='position: relative'><noscript><a href='#'><img alt=' '
                   src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;Top5CountriesbyGoldinGymnastics&#47;1_rss.png'
                   style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
               <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
@@ -256,15 +289,14 @@
               <param name='display_static_image' value='yes' />
               <param name='display_spinner' value='yes' />
               <param name='display_overlay' value='yes' />
-              <param name='display_count' value='yes' />
+              <param name='display_count' value='no' />
               <param name='language' value='en-US' />
-              <param name='filter' value='publish=yes' />
             </object></div>
           <script
-            type='text/javascript'>                    var divElement = document.getElementById('viz1636831329137'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            type='text/javascript'>                    var divElement = document.getElementById('viz1636944126656'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
         </div>
       </div> 
-      <div class="row">
+      <div class="row story">
         <div class="col-md-7">
           <div class='tableauPlaceholder' id='viz1636832913604' style='position: relative'><noscript><a href='#'><img alt=' '
                   src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;GymnasticsTop10WinnersBMI&#47;1_rss.png'
@@ -281,20 +313,20 @@
               <param name='display_static_image' value='yes' />
               <param name='display_spinner' value='yes' />
               <param name='display_overlay' value='yes' />
-              <param name='display_count' value='yes' />
+              <param name='display_count' value='no' />
               <param name='language' value='en-US' />
-              <param name='filter' value='publish=yes' />
+              <param name='filter' value='publish=no' />
             </object></div>
           <script
             type='text/javascript'>                    var divElement = document.getElementById('viz1636832913604'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
         </div>
         <div class="col-md-5">
-            <h4>Gymnastics Top 5 Gold Winners BMI</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h3>Gymnastics Top 5 Gold Winners BMI</h3>
+            <p>What an extraordinary case! Japan leads Gold Medals and also has the highest age average as well as the highest BMI average. Romania who sports by far the lowest average BMI and age (18.0 and 17 years old) tie in the third place of all time gold winners with the US that has age and BMI averages closer to the mean. Romania well below all averages has won an amazing 38 gold medals and clearly shows that sometimes tradition is a catalyst.
             </p>
         </div>
       </div> 
-      <div class="row"></div>
+      <div class="row story"></div>
     
     <!-- ML -->
     <div class="media">
@@ -303,8 +335,9 @@
         <h2>Machine Learning Model:</h2>
         <p>Physical attributes are a primary factor for why an athlete will choose to participate in a specific sport. Based on the minute differences between Olympic athlete physical features, can we determine whether or not an athlete will receive an Olympic Medal? Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes.</p>
         <p>Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics.</p>
+
         <h4>Importing Data from AWS Database:</h4>
-        <pre><code class='language-py'>
+        <pre><code class='language-python'>
           # Connecting to AWS
           %reload_ext sql
           %sql postgresql://postgres:{aws_key}@olympicmedals.c8zltavxfwqy.us-east-2.rds.amazonaws.com:5432/postgres
@@ -317,18 +350,20 @@
         <h4>Data Pre-Processing:</h4>
         <ul>
           <li>Filtered our data to only look at the sport of gymnastics.</li>
-          <pre><code class='language-py'>
+          <pre><code class='language-python'>
             # Filter to one sport
             df = df[df['Sport']=='Gymnastics']
             </code></pre>
           <li>Binned countries with less than 100 entries to "Other" category</li>
-          <pre><code class='language-py'>
+          <pre><code class='language-python'>
             # Look at NOC Value Counts
             noc_counts = df.NOC.value_counts()
 
             # Visualize the NOC Value Counts
             noc_counts.plot.density()
-
+            </code></pre>
+            <p><img src="./NaNSite/static/images/noc_dencity.png" alt=""></p>
+            <pre><code class='language-python'>
             # Determine which values to replace if counts are less than 100
             replace_noc = list(noc_counts[noc_counts < 100].index)
 
@@ -340,12 +375,12 @@
             df.NOC.value_counts()
             </code></pre>
           <li>Dropped Name, Team, Sport, Event and Medal columns as these are not needed for our model</li>
-          <pre><code class='language-py'>
+          <pre><code class='language-python'>
             # Drop name, team, sport, event and medal from dataframe
             df = df.drop(['Name', 'Team', 'Sport', 'Event', 'Medal'],axis=1)
             </code></pre>
           <li>Encoded Sex, NOC and Games as these are object data</li>
-          <pre><code class='language-py'>
+          <pre><code class='language-python'>
             # Generate our categorical variable lists
             df_cat = ['Sex', 'NOC', 'Games']
 
@@ -366,7 +401,7 @@
           <li>X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member</li>
           <li>y: Win (yes or no)</li>
           <li>We chose these features because we are looking at the physical attributes of the athletes. We kept NOC (team) and year because these also determine physical attributes. We kept Team Wins and Wins Per Member as these assist with our machine learning model accuracy. </li>
-          <pre><code class='language-py'>
+          <pre><code class='language-python'>
             # Create features
             X = df.drop(columns='Win')
             # Create targets
@@ -374,12 +409,12 @@
             </code></pre>
         </ul>
         <h4>Split the data:</h4>
-        <pre><code class='language-py'>
+        <pre><code class='language-python'>
           # Split the preprocessed data into a training and testing dataset
           X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, stratify = y)
           </code></pre>
         <h4>Scale the data:</h4>
-        <pre><code class='language-py'>
+        <pre><code class='language-python'>
           # Create a StandardScaler instances
           scaler = StandardScaler()
 
@@ -390,12 +425,12 @@
           X_train_scaled = X_scaler.transform(X_train)
           X_test_scaled = X_scaler.transform(X_test)
           </code></pre>
-        <h4>Model Choice - Balanced Random Forest Classifier:</h4>
+        <h2>Model Choice - Balanced Random Forest Classifier:</h2>
         <p>We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.</p>
         <p>Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively.</p>
         <p>Gymnastics Athletes Balanced Accuracy Score: 85%</p>
         <p>Machine Learning Recall on Gymnastic Athletes: 84%</p>
-        <pre><code class='language-py'>
+        <pre><code class='language-python'>
         In:  # Resample the training data with the BalancedRandomForestClassifier
               forest = BalancedRandomForestClassifier(n_estimators = 100, random_state=1)
               forest = forest.fit(X_train, y_train)
@@ -457,7 +492,8 @@
 
 
 <footer>
-<p class="small">This presentation is an academic project and for educational purposes only. Opinions or points of view expressed in this presentation represent the view of the presenter, and does not necessarily represent the official position or policies of the International Olympic Committee. The illustrations appearing in this presentation are depicted for illustrative purposes only.</p>
+<p class="small">This presentation is an academic project and for educational purposes only. Opinions or points of view expressed in this presentation represent the view of the presenter, and does not necessarily represent the official position or policies of the International Olympic Committee. </p>
+<p>The illustrations appearing in this presentation are depicted for illustrative purposes only.</p>
 </footer>
 
 
