@@ -148,7 +148,7 @@ The final athletes data table:
 
 # Database outline 
 
-![ERD ](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/ERD.png)
+![ERD](./Database%20Schema/ERD.png)
 
 &ensp;
 
