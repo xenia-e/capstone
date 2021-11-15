@@ -20,7 +20,7 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
 	center: [35.93, 14.37],
-	zoom: 2,
+	zoom: 4,
 	layers: [streets]
 });
 
@@ -217,8 +217,8 @@ d3.json("./NaNSite/static/js/athletes.geojson").then(function(data) {
         var trophyIcon = L.icon({
           iconUrl: './NaNSite/static/images/trophy.png',
         
-          iconSize:     [15, 15], // size of the icon
-          iconAnchor:   [6, 15], // point of the icon which will correspond to marker's location
+          iconSize:     [25, 25], // size of the icon
+          iconAnchor:   [12, 25], // point of the icon which will correspond to marker's location
           popupAnchor:  [-3, -3] // point from which the popup should open relative to the iconAnchor
         });
         return L.marker(latlng, {icon: trophyIcon})
