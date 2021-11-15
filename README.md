@@ -31,7 +31,7 @@ Olympic Athletes
 
 ## **Questions we hopes to answer with the data**: 
 
-Can we use predict an athlete’s chances of winning a medal based on their physical features? We hope to further our analysis and find an interesting correlations between the athlete's physical profile and the country's performance history. 
+Can we predict whether or not an Olympic athlete will win a medal based on their physical features? We hope to further our analysis and find an interesting correlations between the athlete's physical profile and the country's performance history. 
  
 ### **Reason we selected the topic**: 
 
@@ -53,8 +53,11 @@ Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resou
 
 
 # Machine Learning Model:
+Physical attributes are a primary factor for why an athlete will choose to participate in a specific sport. Based on the minute differences between Olympic athlete physical features, can we determine whether or not an athlete will receive an Olympic Medal?
 
 Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
+
+We have connected our code to the AWS database. AWS is connected to a local Postgres server.
 
 #### Description of data preprocessing  
 * Body types vary based on sport, so to improve our model's accuracy, we filtered our data to only look at gymnastics. 
