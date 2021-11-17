@@ -4,6 +4,7 @@
 ### Index
 - [Overview of Analysis](#overview-of-the-analysis)
   - [Presentation](#presentation-slides)
+  - [Datasets cleaned](#datasets-cleaned)
 - [ETL and Initial Data Exploration](#etl)  
 - [Database Outline](#database-outline)
 - [Machine Learning Model](#machine-learning-model)
@@ -62,7 +63,8 @@ Additional dataset contains listed data for each of the Olympic games:
 - Season (Summer or Winter)
 - City (e.g., Tokyo)
 
-Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resources/Final_athlete_clean_data.csv) and [Games](https://github.com/xenia-e/capstone/blob/main/Resources/olypic_games_clean.csv)
+#### Datasets cleaned: 
+[Athletes](https://github.com/xenia-e/capstone/blob/main/Resources/Final_athlete_clean_data.csv) and [Games](https://github.com/xenia-e/capstone/blob/main/Resources/olypic_games_clean.csv)
 
 &ensp;
 
@@ -90,7 +92,7 @@ Using dropna method we clear all rows with no data in features columns for good 
 ```
 athletes_data_nona = athletes_data.dropna(subset=['Age', 'Height', 'Weight', 'Sex'])
 ```
-In addition to that we decided to drop more data that had not a lot of entries to affect dataset using groupby method combined with lambda function. 
+In addition to that we decided to drop more data that did not have a lot of entries to affect dataset using groupby method combined with lambda function. 
 
 ```
   athletes_data_nona.groupby('Games').filter(lambda x : len(x)>70)
@@ -113,14 +115,14 @@ medals = athletes_data['Medal'].to_list()
         
 ```
 
-Adding body mass index for the DEA
+Adding body mass index for the Drug Enforcement Administration
 
 ```
 athletes_data['BMI'] = athletes_data.apply(lambda row: row.Weight/(row.Height*row.Height/10000) , axis=1)
 
 ```
 
-Team desided to use team win counts and medals per team athlete as additional data entry:
+Team decided to use team win counts and medals per team athlete as additional data entry:
 
 ```
 acthletes_medals = athletes_data.groupby("NOC").Win.sum()
@@ -158,7 +160,7 @@ We sorted all athletes who ever won an Olympic medal, calculated average weight 
 
 ### Average Olympic Athlete BMI over the years
 
-An Olympian’s body shape and size directly relate to the sport in which he or she participates, and certain events demand extreme proportions to compete at the highest level. We aim to evaluate the significance of of a specific selection of phisical attributes: height and weight. For this reasone we decided to look into quotiont of weight devided by heiht in meters squared also known as Body Mass Index (BMI)
+An Olympian’s body shape and size directly relate to the sport in which he or she participates, and certain events demand extreme proportions to compete at the highest level. We aim to evaluate the significance of a specific selection of physical attributes: height and weight. For this reason we decided to look into quotient of weight divided by height in meters squared also known as Body Mass Index (BMI)
 
 The BMI line over the years in its beginning probably reflects what the perception of the athletic body, and the human body in general, was at the time. After the 1960’s when technology slowly starts impacting the sciences around sports we notice a slow but steady drop of the BMI. Athletes are now better equipped to efficiently train their bodies. Average BMI has remained in the same levels for the past 20 years.
 
@@ -170,11 +172,11 @@ The BMI line over the years in its beginning probably reflects what the percepti
 
 As expected, BMI varies depending on the sport. On one end, one of the strength sports, we see Judo, Rowing, and Sailing with BMI over 23.0. On the other end, we find sports that require refined movement, flexibility, and stealth-like rhythmic such as gymnastics and synchronized swimming. Endurance sports tend to stand in the middle as some of them depend on strength and others on stamina.
 
-Those athletes with extreme body size and shape are those whose heights and weights directly affect their performance. For instance, gymnasts require a very high strength-to-weight ratio, which is why they tend to be short and muscular, with no superfluous fat.
+Those athletes with extreme body size and shape are those whose heights and weights directly affect their performance. For instance, gymnastics require a very high strength-to-weight ratio, which is why they tend to be short and muscular, with no superfluous fat.
 
 ![Average BMI in Top Olympic Sports](Report_images/bmi_sports.png)
 
->Figure 2 - Average BMI in Top Olympic Sports
+>Figure 2 - Average BMI (Body Mass Index) in Top Olympic Sports
 
 ## Gold Winners in Gymnastics
 
@@ -244,7 +246,7 @@ We took additional steps to review how well the model performed:
 #### Accuracy Score Results on Athletes_Medals data: We took the top 3 sports with greatest participation records:
 1. Gymnastics Athletes Balanced Accuracy Score: 85% 
 2. Swimming Balanced Accuracy Score: 85%
-3. Athletics Balanced Accuracy Score: 71%  - Note ML accuracy drops because there is greater variance in height and weight due to the variety of events in athletics compared to gymnastics and swimming.s
+3. Athletics Balanced Accuracy Score: 71%  - Note ML accuracy drops because there is greater variance in height and weight due to the variety of events in athletics compared to gymnastics and swimmings
 
 #### Model Results: 
 * Based on the recall score, our model can correctly predict if an Olympic gymnast will receive a medal 84% of the time.
