@@ -194,7 +194,7 @@ What an extraordinary case! Japan leads Gold Medals and also has the highest age
 
 >Figure 4 - Gymnastics Top 5 Gold Winners BMI
 
-# Machine Learning Model:
+# Machine Learning Model: 
 Physical attributes are a primary factor for why an athlete will choose to participate in a specific sport. Based on the minute differences between Olympic athlete physical features, can we determine whether or not an athlete will receive an Olympic Medal?
 
 Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
