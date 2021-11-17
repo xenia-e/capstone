@@ -345,7 +345,7 @@
           # Load data from AWS
           output = %sql SELECT * FROM athletes_medals;
           df = pd.DataFrame(output)
-          df
+          df.sample(5)
           </code></pre>
         <h4>Data Pre-Processing:</h4>
         <ul>
@@ -400,7 +400,7 @@
         <ul>
           <li>X: Sex, Age, Height, Weight, NOC, Games, BMI, Team Wins, Wins Per Member</li>
           <li>y: Win (yes or no)</li>
-          <li>We chose these features because we are looking at the physical attributes of the athletes. We kept NOC (team) and year because these also determine physical attributes. We kept Team Wins and Wins Per Member as these assist with our machine learning model accuracy. </li>
+          <li>We chose these features because we are looking at the physical attributes of the athletes. We kept NOC (team), Games (year), Team Wins, and Wins Per Member as these replace our absense of data in regards to athletic training programs. </li>
           <pre><code class='language-python'>
             # Create features
             X = df.drop(columns='Win')
@@ -428,6 +428,49 @@
         <h2>Model Choice - Balanced Random Forest Classifier:</h2>
         <p>We are using this model to classify whether or not a person will earn a medal based on their physical attributes. Due to our data's linear relationship, this model is useful for regression analysis and classification. We can also easily view the relative importance of our input features. This will help to determine the most important features in the training of our model. Lastly, the small trees prevent us from overfitting our model.</p>
         <p>Limitations: If there are too many trees, it can slow the algorithm. We must check our features to ensure they are important to our model and the model runs effectively.</p>
+        <h4>Results from Training Dataset:</h4>
+        <p>Gymnastics Athletes Balanced Accuracy Score: 91%</p>
+        <p>Machine Learning Recall on Gymnastic Athletes: 85%</p>
+        <pre><code class='language-python'>
+          In:  # Resample the training data with the BalancedRandomForestClassifier
+                forest = BalancedRandomForestClassifier(n_estimators = 100, random_state=1)
+                forest = forest.fit(X_train, y_train)
+          
+                # Calculating the accuracy score
+                predictions = forest.predict(X_train)
+                acc_score = balanced_accuracy_score(y_train, predictions)
+
+                # Calculating the confusion matrix
+                matrix = confusion_matrix(y_train, predictions)
+                cm_df = pd.DataFrame(
+                    matrix, index=["Actual 0", "Actual 1"], columns=["Predicted 0", "Predicted 1"]
+                )
+
+                print("Confusion Matrix")
+                display(cm_df)
+                print("---------------------------")
+                print(f"Accuracy Score : {acc_score}")
+                print("---------------------------")
+                print("Classification Report")
+                print(classification_report_imbalanced(y_train, predictions))
+                
+          OUT: 
+                Confusion Matrix
+                Predicted 0	Predicted 1
+                Actual 0	803	153
+                Actual 1	0	73
+                ---------------------------
+                Accuracy Score : 0.9199790794979079
+                ---------------------------
+                Classification Report
+                                  pre       rec       spe        f1       geo       iba       sup
+                
+                          0       1.00      0.84      1.00      0.91      0.92      0.83       956
+                          1       0.32      1.00      0.84      0.49      0.92      0.85        73
+                
+                avg / total       0.95      0.85      0.99      0.88      0.92      0.83      1029
+          </code></pre>
+        <h4>Results from Testing Dataset:</h4>
         <p>Gymnastics Athletes Balanced Accuracy Score: 85%</p>
         <p>Machine Learning Recall on Gymnastic Athletes: 84%</p>
         <pre><code class='language-python'>
@@ -476,8 +519,8 @@
       <div class="media-left"><div class="circle"></div></div>
       <div class="media-body">
         <h2>Conclusion</h2>
-        <p>While RFC can be a powerful tool for statistical modeling, they do have their drawbacks as any othe model. </p>
-        <p>If you have a dataset with a large number of features, you may end up overfitting your model or encounter computational bottlenecks in performance depending on the size of your dataset. In addition, there are other features not in this dataset that could have improved our model, such as athletic performance in non-Olympic venues, best score, years in sport, etc. </p>
+        <p>While the Random Forest Classifier can be a powerful tool for statistical modeling, they do have their drawbacks as any other model. </p>
+        <p>If you have a dataset with a large number of features, you may end up overfitting your model or encounter computational bottlenecks in performance depending on the size of your dataset. In addition, there are other features not in this dataset that could have improved our model, such as athletic performance in non-Olympic venues, training locations and opportunities, best score, years in sport, etc. </p>
         <p>There are also other options for modeling this data that may be more effective, such as support vector machines or neural networks. Finally, with historic datasets like these, there’s likely to be missing values or errors resulting from disputing views, so keep that in mind as you draw conclusions from this and similar datasets.</p>
       </div>
     </div>
