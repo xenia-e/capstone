@@ -238,7 +238,7 @@ We took additional steps to review how well the model performed:
 
 #### Additional training that has taken place:
 * We hope to further our analysis and find interesting correlations between the athlete's physical profile and the country's performance history.
-* Attempted to add 'Year', 'City', and 'Season' from games table, but the added data reduced the accuracy score from 85% to 76%. ML
+* Attempted to add 'Year', 'City', and 'Season' from games table, but the added data reduced the accuracy score from 85% to 76%. 
 * Attempted to add 'Year' and bin to reduce number of unique values, but struggled with data type changes in the model. 
 * Attempted to filter on Gender, but the added filtering reduced the accuracy score from 85% to 70%. 
 * Filtered by sport to view machine model learning accuracy for different sports. See results below.
@@ -257,6 +257,7 @@ We took additional steps to review how well the model performed:
 * The recall on our training dataset indicates that our model can correctly determine if a gymnast has received a medal 91% of the time.
 * The recall on our testing dataset indicates that our model can correctly predict if a gymnast will receive a medal 84% of the time.
 * With an 85% balanced accuracy score on our testing dataset, we can conclude that on Olympic gymnast's physical features are correlated with whether or not they will receive a medal.
+* Additionally, you can see our top 5 feature importance include Win Per Member, Team Wins, Height, Age, BMI, Weight for gymnastics athletes. 
 
 &ensp;
 
