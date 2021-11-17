@@ -194,7 +194,7 @@ What an extraordinary case! Japan leads Gold Medals and also has the highest age
 
 >Figure 4 - Gymnastics Top 5 Gold Winners BMI
 
-# Machine Learning Model:
+# Machine Learning Model: 
 Physical attributes are a primary factor for why an athlete will choose to participate in a specific sport. Based on the minute differences between Olympic athlete physical features, can we determine whether or not an athlete will receive an Olympic Medal?
 
 Using data from the Olympic games from 1900 to 2016, we are using a Random Forest Classifier to predict if Olympic athletes will earn a medal based on their physical attributes. Please find the code [here](https://github.com/xenia-e/capstone/blob/main/MachineLearning/Olympics_Machine_Learning_Model.ipynb).
@@ -211,10 +211,10 @@ We have connected our code to the AWS database. AWS is connected to a local Post
 #### Description of feature engineering and the feature selection, including their decision making process  
 * X: Sex, Age, Height, Weight, NOC, Year, BMI, Team Wins, Wins Per Member
 * y: Win (yes or no) 
-* We chose these features because we are looking at the physical attributes of the athletes. We kept NOC (team) and year because these also determine physical attributes. We kept Team Wins and Wins Per Member as these assist with our machine learning model accuracy. 
+* We chose these features because we are looking at the physical attributes of the athletes. We kept NOC (team), Games (year), Team Wins, and Wins Per Member as these replace our absense of data in regards to athletic training programs.
 * We removed Height and Weight data as it is used as a calculation for BMI, but found that our model reduced -1% accuracy score, so we decided to leave the additional Height and Weight data as support for our machine learning model.
 
-#### Description of how data was split into training and testing sets  
+#### Data was split into training and testing sets  
 * We used the following code to split into training and testing sets:
 * X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, stratify=y)
 
@@ -243,15 +243,21 @@ We took additional steps to review how well the model performed:
 * Attempted to filter on Gender, but the added filtering reduced the accuracy score from 85% to 70%. 
 * Filtered by sport to view machine model learning accuracy for different sports. See results below.
 
-#### Accuracy Score Results on Athletes_Medals data: We took the top 3 sports with greatest participation records:
+#### Results from Training Dataset. We took the top 3 sports with greatest participation records:
+1. Gymnastics Athletes Balanced Accuracy Score: 91% 
+2. Swimming Balanced Accuracy Score: 92%
+3. Athletics Balanced Accuracy Score: 87%  - Note ML accuracy drops because there is greater variance in height and weight due to the variety of events in athletics compared to gymnastics and swimmings
+
+#### Results from Testing Dataset. We took the top 3 sports with greatest participation records:
 1. Gymnastics Athletes Balanced Accuracy Score: 85% 
 2. Swimming Balanced Accuracy Score: 85%
 3. Athletics Balanced Accuracy Score: 71%  - Note ML accuracy drops because there is greater variance in height and weight due to the variety of events in athletics compared to gymnastics and swimmings
 
 #### Model Results: 
-* Based on the recall score, our model can correctly predict if an Olympic gymnast will receive a medal 84% of the time.
-* With an 85% balanced accuracy score, we can conclude that on Olympic gymnast's physical features are correlated with whether or not they will receive a medal.
-
+* The recall on our training dataset indicates that our model can correctly determine if a gymnast has received a medal 91% of the time.
+* The recall on our testing dataset indicates that our model can correctly predict if a gymnast will receive a medal 84% of the time.
+* With an 85% balanced accuracy score on our testing dataset, we can conclude that on Olympic gymnast's physical features are correlated with whether or not they will receive a medal.
+* Additionally, you can see our top 5 feature importance include Win Per Member, Team Wins, Height, Age, BMI, Weight for gymnastics athletes. 
 
 &ensp;
 
