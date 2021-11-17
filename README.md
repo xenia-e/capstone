@@ -4,6 +4,7 @@
 ### Index
 - [Overview of Analysis](#overview-of-the-analysis)
   - [Presentation](#presentation-slides)
+  - [Datasets cleaned](#datasets-cleaned)
 - [ETL and Initial Data Exploration](#etl)  
 - [Database Outline](#database-outline)
 - [Machine Learning Model](#machine-learning-model)
@@ -62,7 +63,8 @@ Additional dataset contains listed data for each of the Olympic games:
 - Season (Summer or Winter)
 - City (e.g., Tokyo)
 
-Datasets cleaned: [Athletes](https://github.com/xenia-e/capstone/blob/main/Resources/Final_athlete_clean_data.csv) and [Games](https://github.com/xenia-e/capstone/blob/main/Resources/olypic_games_clean.csv)
+#### Datasets cleaned: 
+[Athletes](https://github.com/xenia-e/capstone/blob/main/Resources/Final_athlete_clean_data.csv) and [Games](https://github.com/xenia-e/capstone/blob/main/Resources/olypic_games_clean.csv)
 
 &ensp;
 
@@ -158,7 +160,7 @@ We sorted all athletes who ever won an Olympic medal, calculated average weight 
 
 ### Average Olympic Athlete BMI over the years
 
-An Olympian’s body shape and size directly relate to the sport in which he or she participates, and certain events demand extreme proportions to compete at the highest level. We aim to evaluate the significance of of a specific selection of phisical attributes: height and weight. For this reasone we decided to look into quotiont of weight devided by heiht in meters squared also known as Body Mass Index (BMI)
+An Olympian’s body shape and size directly relate to the sport in which he or she participates, and certain events demand extreme proportions to compete at the highest level. We aim to evaluate the significance of of a specific selection of phisical attributes: height and weight. For this reason we decided to look into quotient of weight devided by height in meters squared also known as Body Mass Index (BMI)
 
 The BMI line over the years in its beginning probably reflects what the perception of the athletic body, and the human body in general, was at the time. After the 1960’s when technology slowly starts impacting the sciences around sports we notice a slow but steady drop of the BMI. Athletes are now better equipped to efficiently train their bodies. Average BMI has remained in the same levels for the past 20 years.
 
