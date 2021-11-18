@@ -217,8 +217,8 @@ d3.json("./NaNSite/static/js/athletes.geojson").then(function(data) {
         var trophyIcon = L.icon({
           iconUrl: './NaNSite/static/images/trophy.png',
         
-          iconSize:     [25, 25], // size of the icon
-          iconAnchor:   [12, 25], // point of the icon which will correspond to marker's location
+          iconSize:     [30, 30], // size of the icon
+          iconAnchor:   [15, 230], // point of the icon which will correspond to marker's location
           popupAnchor:  [-3, -3] // point from which the popup should open relative to the iconAnchor
         });
         return L.marker(latlng, {icon: trophyIcon})
