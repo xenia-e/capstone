@@ -181,7 +181,26 @@
 
       </div>
     </div>
+<!-- Database outline  -->
+<div class="media">
+  <div class="media-left"><div class="circle"></div></div>
+  <div class="media-body">
+    <h2 class="media-heading">Database outline</h2>
+    <div class="row">
+      <div class="col-sm-6">
+        <p>To parse the cleaned data on SQL (PgAdmin), we reference the design of the database with a logical Entity-Relationship Diagram using the tool <a href='https://www.quickdatabasediagrams.com/'  >Quickdatabasediagrams</a>. The design shows the baseline of data types and the relationships between the two tables used on this project. On SQL we used the following <a href="./Database%20Schema/Completedschema.sql"> Schema</a> to interact with the tables and join them using an inner join to return matching data from two tables in one database, to be used throughout the analysis.</p>
+        <p>Even though only the Athletes_Medals table is used for our machine learning model, we are utilizing the Games table for our exploratory analysis and interactive map creation.</p>
+      </div>
+      <div class="col-sm-6 center">
+        <img src="./Database%20Schema/ERD.png" alt="ERD of used database" style="width:80%">
+    
+      </div>
+    </div>
 
+  </div>
+  
+</div>
+<!-- / Database outline  -->
 <!--  analysis -->
     <div class="media"> 
       <div class="media-left"><div class="circle"></div></div>
@@ -202,6 +221,11 @@
           <h3>Average Olympic Athlete BMI over the years</h3>
           <p> An Olympian’s body shape and size directly relate to the sport in which he or she participates, and certain events demand extreme proportions to compete at the highest level. We aim to evaluate the significance of of a specific selection of phisical attributes: height and weight. For this reasone we decided to look into quotiont of weight devided by heiht in meters squared also known as Body Mass Index (BMI)   </p>
           <p>The BMI line over the years in its beginning probably reflects what the perception of the athletic body, and the human body in general, was at the time. After the 1960’s when technology slowly starts impacting the sciences around sports we notice a slow but steady drop of the BMI. Athletes are now better equipped to efficiently train their bodies. Average BMI has remained in the same levels for the past 20 years.</p>
+          <p>To better understand what change in BMI translates to :</p>
+          <ul>
+            <li> BMI range for non-athletes whoa re 160cm tall is 18.0-24.0</li>
+            <li> For this body type, 1.0 point of decrease or increase in BMI equals to around 2.5 kg of gain or loss.</li>
+          </ul>
         </div>
         <div class="col-md-7">
           <div class='tableauPlaceholder' id='viz1636942626616' style='position: relative'><noscript><a href='#'><img alt=' '
@@ -271,7 +295,7 @@
       <div class="row story">
         <div class="col-md-5">
           <h3>Gold Winners in Gymnastics</h3>
-          <p>Countries with decades of tradition in Gymnastics like Japan, China, and Romania demonstrate how in this case the team and its culture have a greater impact on the result than physical attributes do. In the following graph, we will better understand the minute differences between these big teams, by looking at age and BMI average as well as Count of Wins for each country.</p> 
+          <p>Countries with decades of tradition in Gymnastics like Japan, China, and Romania demonstrate how in this case the team and its culture have a greater impact on the result than physical attributes do. In the following graph we will take a closer look at the specifics of the team that has won the most gold medals : Japan.</p> 
           </div>
         <div class="col-md-7">
           <div class='tableauPlaceholder' id='viz1636944126656' style='position: relative'><noscript><a href='#'><img alt=' '
@@ -297,39 +321,157 @@
         </div>
       </div> 
       <div class="row story">
-        <div class="col-md-7">
-          <div class='tableauPlaceholder' id='viz1636832913604' style='position: relative'><noscript><a href='#'><img alt=' '
-                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;GymnasticsTop10WinnersBMI&#47;1_rss.png'
+        <div class="col-md-12">
+            <h3>Gymnastics Top 3 Countries by Medal Count </h3>
+            <p>What an extraordinary case! Japan leads Gold Medals and also has the highest age average as well as the highest BMI average. Romania who sports by far the lowest average BMI and age (18.0 and 17 years old) tie in the third place of all time gold winners with the US that has age and BMI averages closer to the mean. Romania well below all averages has won an amazing 38 gold medals and clearly shows that sometimes tradition is a catalyst.
+            </p>
+        </div>
+        <div class="col-md-6">
+          <div class='tableauPlaceholder' id='viz1637271120312' style='position: relative'><noscript><a href='#'><img alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;AverageJPNGymasticsBMIOvertheYears&#47;1_rss.png'
                   style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
               <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
               <param name='embed_code_version' value='3' />
               <param name='site_root' value='' />
-              <param name='name' value='Olympians_16363169289870&#47;GymnasticsTop10WinnersBMI' />
+              <param name='name' value='Olympians_16363169289870&#47;AverageJPNGymasticsBMIOvertheYears' />
               <param name='tabs' value='no' />
               <param name='toolbar' value='no' />
               <param name='static_image'
-                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;GymnasticsTop10WinnersBMI&#47;1.png' />
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;AverageJPNGymasticsBMIOvertheYears&#47;1.png' />
               <param name='animate_transition' value='yes' />
               <param name='display_static_image' value='yes' />
               <param name='display_spinner' value='yes' />
               <param name='display_overlay' value='yes' />
-              <param name='display_count' value='no' />
+              <param name='display_count' value='yes' />
               <param name='language' value='en-US' />
-              <param name='filter' value='publish=no' />
+              <param name='filter' value='publish=yes' />
             </object></div>
           <script
-            type='text/javascript'>                    var divElement = document.getElementById('viz1636832913604'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+            type='text/javascript'>                    var divElement = document.getElementById('viz1637271120312'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
         </div>
-        <div class="col-md-5">
-            <h3>Gymnastics Top 5 Gold Winners BMI</h3>
-            <p>What an extraordinary case! Japan leads Gold Medals and also has the highest age average as well as the highest BMI average. Romania who sports by far the lowest average BMI and age (18.0 and 17 years old) tie in the third place of all time gold winners with the US that has age and BMI averages closer to the mean. Romania well below all averages has won an amazing 38 gold medals and clearly shows that sometimes tradition is a catalyst.
-            </p>
+        <div class="col-md-6">
+          <div class='tableauPlaceholder' id='viz1637271314766' style='position: relative'><noscript><a href='#'><img alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;CountofJPNGymasticsMedalsOvertheYears&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Olympians_16363169289870&#47;CountofJPNGymasticsMedalsOvertheYears' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;CountofJPNGymasticsMedalsOvertheYears&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+            </object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1637271314766'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
         </div>
       </div> 
-      <div class="row story"></div>
-    
+      <div class="row story">
+
+        <div class="col-md-6">
+          <div class='tableauPlaceholder' id='viz1637272734737' style='position: relative'><noscript><a href='#'><img alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;AverageUSAGymasticsBMIOvertheYears&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Olympians_16363169289870&#47;AverageUSAGymasticsBMIOvertheYears' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;AverageUSAGymasticsBMIOvertheYears&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+            </object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1637272734737'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        </div>
+        <div class="col-md-6">
+          <div class='tableauPlaceholder' id='viz1637272592811' style='position: relative'><noscript><a href='#'><img alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;CountofUSAGymasticsMedalsOvertheYears&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Olympians_16363169289870&#47;CountofUSAGymasticsMedalsOvertheYears' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;CountofUSAGymasticsMedalsOvertheYears&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+            </object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1637272592811'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        </div>
+      </div>
+      <div class="row story">
+        <div class="col-md-6">
+          <div class='tableauPlaceholder' id='viz1637272642680' style='position: relative'><noscript><a href='#'><img alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;AverageCHNGymasticsBMIOvertheYears2&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Olympians_16363169289870&#47;AverageCHNGymasticsBMIOvertheYears2' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;AverageCHNGymasticsBMIOvertheYears2&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+            </object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1637272642680'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        </div>
+        <div class="col-md-6">
+          <div class='tableauPlaceholder' id='viz1637272609539' style='position: relative'><noscript><a href='#'><img alt=' '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;CountofCHNGymasticsMedalsOvertheYears&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='Olympians_16363169289870&#47;CountofCHNGymasticsMedalsOvertheYears' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='no' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;Olympians_16363169289870&#47;CountofCHNGymasticsMedalsOvertheYears&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+            </object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1637272609539'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+        </div>
+      </div>
     <!-- ML -->
-    <div class="media">
+    <div class="media" style="margin-top: 3em">
       <div class="media-left"><div class="circle"></div></div>
       <div class="media-body">
         <h2>Machine Learning Model:</h2>
