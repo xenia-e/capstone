@@ -150,6 +150,8 @@ The final athletes data table:
 
 # Database outline 
 
+To parse the cleaned data on SQL (PgAdmin), we reference the design of the database with a logical Entity-Relationship Diagram using the tool [Quickdatabasediagrams](https://www.quickdatabasediagrams.com). The design shows the baseline of data types and the relationships between the two tables used on this project. On SQL we used the following [Schema](https://github.com/xenia-e/capstone/blob/main/Database%20Schema/Completedschema.sql) to interact with the tables and join them using an inner join to return matching data from two tables in one database, to be used throughout the analysis. 
+
 ![ERD](./Database%20Schema/ERD.png)
 
 &ensp;
