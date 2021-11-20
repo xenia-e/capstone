@@ -271,7 +271,7 @@ In our dashboard we feature a detailed analysis of gold medal winning teams and 
 
 From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare (only Gymnastics included to Dashboard. Follow [Tableau Public](https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/theOlympicGoldStandard) link to see other graphs). 
 
-- Interactive graphs and dashboard were created in [Tableau Public](https://public.tableau.com/views/Olympians_16363169289870/TheOlympicGoldStandard)  
+- Interactive graphs and dashboard were created in [Tableau Public](https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/theOlympicGoldStandard)  
 
 - Interactive map with three additional layers was created using **javascript** and **Leaflet** library. The original dataset was preprocessed and converted into GeoJSON files. 
 A map presenting visualizations of countries Olympic achievements and outline of typical Olympic Medal Winner in certain country.  
