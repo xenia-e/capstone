@@ -269,7 +269,7 @@ We took additional steps to review how well the model performed:
 
 In our dashboard we feature a detailed analysis of gold medal winning teams and the association to the team’s average BMI. 
 
-From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare (only Gymnastics included to Dashboard. Follow [Tableau Public](https://public.tableau.com/views/Olympians_16363169289870/TheOlympicGoldStandard) link to see other graphs). 
+From the pool of all Olympic Sports we follow twenty of the oldest and most popular olympic sports. From these sports we pick Gymnastics, Athletics and Swimming to compare (only Gymnastics included to Dashboard. Follow [Tableau Public](https://public.tableau.com/app/profile/ilias.rafailidis/viz/Olympians_16363169289870/theOlympicGoldStandard) link to see other graphs). 
 
 - Interactive graphs and dashboard were created in [Tableau Public](https://public.tableau.com/views/Olympians_16363169289870/TheOlympicGoldStandard)  
 
